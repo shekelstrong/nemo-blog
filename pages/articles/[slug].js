@@ -89,6 +89,15 @@ export async function getStaticPaths() {
   }
 }
 
+// ===== ГЕНЕРАЦИЯ ПРОПС =====
+export async function getStaticProps({ params }) {
+  return {
+    props: {
+      params,
+    },
+  }
+}
+
 // ===== ОСНОВНОЙ КОМПОНЕНТ =====
 export default function ArticlePage({ params }) {
   const { slug } = params
