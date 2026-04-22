@@ -7,35 +7,35 @@ const articles = [
     slug: 'kak-vybrat-vpn-2026',
     title: 'Как выбрать VPN в 2026 году: полное руководство',
     description: 'Разбираемся в протоколах, скорости, безопасности и цене. Что реально важно при выборе VPN для использования в России.',
-    date: '2026-04-22',
+    date: '22 апреля 2026',
     tags: ['гайд', 'сравнение'],
   },
   {
     slug: 'vless-vs-wireguard',
     title: 'VLESS vs WireGuard vs OpenVPN — сравнение протоколов',
-    description: 'Какой протокол лучше для обхода DPI? Почему VLESS Reality — лучший выбор для российских пользователей в 2026 году.',
-    date: '2026-04-22',
+    description: 'Какой протокол лучше для обхода DPI? Подробное сравнение с тестами скорости и стабильности.',
+    date: '22 апреля 2026',
     tags: ['технологии', 'протоколы'],
   },
   {
     slug: 'besplatnyj-vpn-opasen',
     title: 'Почему бесплатный VPN опасен: что происходит с вашими данными',
-    description: 'Бесплатный VPN продаёт ваши данные, вставляет рекламу и замедляет соединение. Вот как это работает и чем грозит.',
-    date: '2026-04-22',
+    description: 'Бесплатный VPN продаёт ваши данные, вставляет рекламу и замедляет соединение. Вот как это работает.',
+    date: '22 апреля 2026',
     tags: ['безопасность'],
   },
   {
     slug: 'chto-vidit-provajder',
     title: 'Что видит ваш провайдер: шокирующая правда',
-    description: 'Провайдер видит каждый сайт, каждое сообщение, каждое приложение. Рассказываем, как это остановить за 2 минуты.',
-    date: '2026-04-22',
+    description: 'Провайдер видит каждый сайт, каждое приложение. Рассказываем, как это остановить за 2 минуты.',
+    date: '22 апреля 2026',
     tags: ['приватность'],
   },
   {
     slug: 'vpn-za-rubli',
     title: 'VPN за рубли: 5 сервисов с оплатой картой МИР',
-    description: 'Обзор VPN-сервисов, которые принимают оплату в рублях. Сравнение цен, протоколов и качества работы.',
-    date: '2026-04-22',
+    description: 'Обзор VPN-сервисов, которые принимают оплату в рублях. Сравнение цен, протоколов и качества.',
+    date: '22 апреля 2026',
     tags: ['сравнение', 'оплата'],
   },
 ]
@@ -44,37 +44,28 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NEMO VPN — Цифровая безопасность и приватность</title>
+        <title>NEMO VPN Blog — Цифровая безопасность и приватность</title>
         <meta name="description" content={siteConfig.description} />
       </Head>
 
-      <section className="mb-10">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">Блог NEMO VPN</h1>
-        <p className="text-gray-600 text-lg">
+      <div className="mb-8">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-2">Блог</h1>
+        <p className="text-zinc-500 dark:text-zinc-400 text-sm">
           Статьи о цифровой безопасности, приватности и защите данных.
-          Без воды — только то, что важно.
         </p>
-      </section>
+      </div>
 
-      <div className="space-y-6">
+      <div>
         {articles.map(article => (
-          <article key={article.slug} className="border-b border-gray-100 pb-6">
-            <Link href={`/articles/${article.slug}`} className="no-underline group">
-              <h2 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 mb-2">
-                {article.title}
-              </h2>
-            </Link>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">{article.description}</p>
-            <div className="flex items-center gap-3 text-sm text-gray-400">
-              <time>{article.date}</time>
-              <span>·</span>
-              <div className="flex gap-2">
-                {article.tags.map(tag => (
-                  <span key={tag} className="bg-gray-100 text-gray-500 px-2 py-0.5 rounded text-xs">{tag}</span>
-                ))}
-              </div>
+          <Link key={article.slug} href={`/articles/${article.slug}`} className="article-card">
+            <h2 className="article-card-title">{article.title}</h2>
+            <p className="article-card-desc">{article.description}</p>
+            <div className="article-card-meta">
+              <span>{article.date}</span>
+              <span className="mx-1.5">·</span>
+              <span>{article.tags.join(', ')}</span>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
     </>

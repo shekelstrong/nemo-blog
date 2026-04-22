@@ -76,27 +76,27 @@ export default function ArticlePage({ slug, title, description, date, tags }) {
         }) }} />
       </Head>
 
-      <article className="prose prose-gray max-w-none">
-        <header className="mb-8 not-prose">
-          <Link href="/" className="text-blue-600 text-sm hover:underline mb-4 inline-block">← Все статьи</Link>
-          <h1 className="text-3xl font-bold text-gray-900 mt-2 mb-2">{title}</h1>
-          <div className="flex items-center gap-3 text-sm text-gray-400">
+      <article className="prose max-w-none">
+        <div className="article-header">
+          <Link href="/" className="back-link">← Назад к статьям</Link>
+          <h1>{title}</h1>
+          <div className="article-header-meta">
             <time>{date}</time>
             <span>·</span>
-            <div className="flex gap-2">
+            <div className="flex gap-1.5">
               {tags && tags.map(tag => (
-                <span key={tag} className="bg-gray-100 text-gray-500 px-2 py-0.5 rounded text-xs">{tag}</span>
+                <span key={tag} className="article-tag">{tag}</span>
               ))}
             </div>
           </div>
-        </header>
+        </div>
 
         <ArticleContent slug={slug} />
 
-        <div className="mt-12 p-6 bg-blue-50 rounded-lg not-prose">
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">Попробуйте NEMO VPN бесплатно</h3>
-          <p className="text-gray-600 mb-4">24 часа бесплатного доступа. VLESS Reality, оплата МИР, живая поддержка.</p>
-          <a href={siteConfig.telegram} target="_blank" rel="noopener" className="inline-block bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 no-underline">
+        <div className="cta-block not-prose">
+          <h3>Попробуйте NEMO VPN бесплатно</h3>
+          <p>24 часа. VLESS Reality, оплата МИР, живая поддержка.</p>
+          <a href={siteConfig.telegram} target="_blank" rel="noopener" className="cta-button">
             Открыть в Telegram →
           </a>
         </div>

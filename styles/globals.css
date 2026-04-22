@@ -4,101 +4,134 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+* { box-sizing: border-box; }
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  color: #374151;
-  background: #ffffff;
   -webkit-font-smoothing: antialiased;
-}
-.dark body {
-  color: #d1d5db;
-  background: #030712;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a { color: #2563eb; text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* --- HOME: Article Cards --- */
+.article-card {
+  @apply block py-6 no-underline group;
+  border-bottom: 1px solid #e4e4e7;
+}
+.dark .article-card {
+  border-bottom-color: #27272a;
+}
+.article-card:first-child { padding-top: 0; }
+.article-card:last-child { border-bottom: none; }
 
-/* --- NAV --- */
-.nav-link {
-  @apply px-3 py-1.5 rounded-lg text-sm font-medium text-gray-500 dark:text-gray-400 
-         hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 
-         transition-colors no-underline;
+.article-card-title {
+  @apply text-lg font-semibold text-zinc-900 dark:text-zinc-100 leading-snug mb-1.5 transition-colors;
+}
+.article-card:hover .article-card-title {
+  @apply text-blue-600 dark:text-blue-400;
 }
 
-.theme-toggle {
-  @apply w-8 h-8 flex items-center justify-center rounded-lg 
-         hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors;
-}
-.theme-icon { font-size: 14px; display: block; line-height: 1; }
-
-.cta-button {
-  @apply ml-1 px-4 py-1.5 rounded-lg text-sm font-semibold text-white 
-         bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600
-         shadow-sm shadow-blue-500/20 hover:shadow-md hover:shadow-blue-500/30
-         transition-all no-underline;
+.article-card-desc {
+  @apply text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed mb-2;
 }
 
-/* --- TYPOGRAPHY --- */
+.article-card-meta {
+  @apply text-xs text-zinc-400 dark:text-zinc-500;
+}
+
+/* --- ARTICLE PAGE --- */
+.article-header {
+  @apply mb-10;
+}
+.article-header h1 {
+  @apply text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 leading-tight mb-3;
+}
+.article-header-meta {
+  @apply flex items-center gap-2 text-sm text-zinc-400 dark:text-zinc-500;
+}
+.article-tag {
+  @apply bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400 px-2 py-0.5 rounded text-xs font-medium;
+}
+
+.back-link {
+  @apply inline-flex items-center gap-1 text-sm text-zinc-400 dark:text-zinc-500 hover:text-zinc-600 dark:hover:text-zinc-300 mb-6 no-underline transition-colors font-medium;
+}
+
+/* --- PROSE: Article Body --- */
 .prose h2 {
-  margin-top: 2.5em;
-  margin-bottom: 0.6em;
-  font-size: 1.5em;
-  font-weight: 800;
-  color: #1e40af;
-  letter-spacing: -0.01em;
-  position: relative;
-  padding-bottom: 0.4em;
+  @apply text-xl font-bold tracking-tight mt-10 mb-4 pb-3;
+  color: #18181b;
+  border-bottom: 1px solid #e4e4e7;
 }
-.prose h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 40px;
-  height: 3px;
-  background: #3b82f6;
-  border-radius: 2px;
+.dark .prose h2 {
+  color: #fafafa;
+  border-bottom-color: #27272a;
 }
 
 .prose h3 {
-  margin-top: 2em;
-  margin-bottom: 0.4em;
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #1e3a5f;
+  @apply text-lg font-semibold mt-8 mb-3 tracking-tight;
+  color: #27272a;
 }
+.dark .prose h3 { color: #e4e4e7; }
 
 .prose p {
-  margin-bottom: 1.1em;
-  line-height: 1.8;
-  color: #4b5563;
+  @apply mb-5 leading-7 text-zinc-600 dark:text-zinc-400;
 }
 
 .prose ul, .prose ol {
-  margin-bottom: 1.1em;
-  padding-left: 1.5em;
+  @apply mb-5 pl-6;
 }
 .prose li {
-  margin-bottom: 0.5em;
-  line-height: 1.7;
-  color: #4b5563;
+  @apply mb-2 leading-7 text-zinc-600 dark:text-zinc-400;
 }
+
 .prose strong {
-  font-weight: 600;
-  color: #111827;
+  @apply font-semibold text-zinc-800 dark:text-zinc-200;
 }
-.prose table { width: 100%; }
 
-/* --- DARK MODE --- */
-.dark .prose h2 { color: #60a5fa; }
-.dark .prose h2::after { background: #3b82f6; }
-.dark .prose h3 { color: #93c5fd; }
-.dark .prose p, .dark .prose li { color: #9ca3af; }
-.dark .prose strong { color: #f3f4f6; }
-.dark .prose a { color: #60a5fa; }
-.dark .prose table th { color: #e5e7eb; border-color: #374151; }
-.dark .prose table td { color: #9ca3af; border-color: #1f2937; }
+.prose a {
+  @apply text-blue-600 dark:text-blue-400 no-underline hover:underline;
+}
 
-.dark .bg-blue-50 { background-color: #172554; }
-.dark .bg-blue-50 h3 { color: #e5e7eb; }
-.dark .bg-blue-50 p { color: #93c5fd; }
+.prose table {
+  @apply w-full text-sm mt-4 mb-6;
+}
+.prose thead th {
+  @apply text-left py-2 pr-4 font-semibold text-zinc-700 dark:text-zinc-300 border-b-2 border-zinc-200 dark:border-zinc-700;
+}
+.prose tbody td {
+  @apply py-2 pr-4 text-zinc-600 dark:text-zinc-400 border-b border-zinc-100 dark:border-zinc-800;
+}
+
+/* --- CTA Block --- */
+.cta-block {
+  @apply mt-12 p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900;
+}
+.cta-block h3 {
+  @apply text-base font-semibold text-zinc-900 dark:text-zinc-100 mb-1;
+}
+.cta-block p {
+  @apply text-sm text-zinc-500 dark:text-zinc-400 mb-4;
+}
+.cta-button {
+  @apply inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold text-white 
+         bg-zinc-900 dark:bg-zinc-100 dark:text-zinc-900
+         hover:bg-zinc-700 dark:hover:bg-zinc-300
+         transition-colors no-underline;
+}
+
+/* --- ABOUT PAGE --- */
+.about-page h1 {
+  @apply text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6;
+}
+.about-page h2 {
+  @apply text-lg font-semibold mt-8 mb-3 text-zinc-800 dark:text-zinc-200;
+}
+.about-page p {
+  @apply mb-4 leading-7 text-zinc-600 dark:text-zinc-400;
+}
+.about-page ul {
+  @apply mb-4 pl-6;
+}
+.about-page li {
+  @apply mb-2 leading-7 text-zinc-600 dark:text-zinc-400;
+}
