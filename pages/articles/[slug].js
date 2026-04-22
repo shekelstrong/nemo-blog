@@ -133,7 +133,7 @@ export default function ArticlePage({ slug, title, description, date, tags }) {
           <h3>Попробуйте NEMO VPN бесплатно</h3>
           <p>24 часа. VLESS Reality, оплата МИР, живая поддержка.</p>
           <a href={siteConfig.telegram} target="_blank" rel="noopener" className="cta-button">
-            Открыть в Telegram →
+            Попробовать VPN
           </a>
         </div>
       </article>
