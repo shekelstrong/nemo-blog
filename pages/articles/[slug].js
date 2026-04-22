@@ -4,11 +4,78 @@ import { siteConfig } from '../../site.config'
 
 const articleMeta = {
   'kak-vybrat-vpn-2026': {
-    title: 'Как выбрать VPN в 2026 году: полное руководство',
-    description: 'Разбираемся в протоколах, скорости, безопасности и цене. Что реально важно при выборе VPN для использования в России.',
+    title: 'Kak Vybrat Vpn 2026',
+    description: 'Описание статьи',
     date: '2026-04-22',
-    tags: ['гайд', 'сравнение'],
+    tags: ['новости'],
   },
+  'vless-vs-wireguard': {
+    title: 'Vless Vs Wireguard',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'besplatnyj-vpn-opasen': {
+    title: 'Besplatnyj Vpn Opasen',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'chto-vidit-provajder': {
+    title: 'Chto Vidit Provajder',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'vpn-za-rubli': {
+    title: 'Vpn Za Rubli',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'vpn-posle-1-maya-2026': {
+    title: 'Vpn Posle 1 Maya 2026',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'ploschadi-blokiruyut-vpn-aprel-2026': {
+    title: 'Ploschadi Blokiruyut Vpn Aprel 2026',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'vsyo-nahuj-slomali': {
+    title: 'Vsyo Nahuj Slomali',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'nemo-vpn-belye-spiski-i-avtomatizaciya-pravil-marshrutizacii': {
+    title: 'Nemo Vpn Belye Spiski I Avtomatizaciya Pravil Marshrutizacii',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'uroki-opasnosti-vpn-shkolah': {
+    title: 'Uroki Opasnosti Vpn Shkolah',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'vpn-i-proksi-markery-narkotikami-v-shkolah': {
+    title: 'Vpn I Proksi Markery Narkotikami V Shkolah',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+  'operatori-prosyat-otsrochit-platu-za-vpn': {
+    title: 'Operatori Prosyat Otsrochit Platu Za Vpn',
+    description: 'Описание статьи',
+    date: '2026-04-22',
+    tags: ['новости'],
+  },
+},
   'vless-vs-wireguard': {
     title: 'VLESS vs WireGuard vs OpenVPN — сравнение протоколов',
     description: 'Какой протокол лучше для обхода DPI? Подробное сравнение с тестами скорости и стабильности.',
