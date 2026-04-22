@@ -49,7 +49,7 @@ export default function Home() {
       </Head>
 
       <section className="mb-10">
-        <h1 className="text-3xl font-bold text-gray-900 mb-3">Блог NEMO VPN</h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">Блог NEMO VPN</h1>
         <p className="text-gray-600 text-lg">
           Статьи о цифровой безопасности, приватности и защите данных.
           Без воды — только то, что важно.
@@ -64,7 +64,7 @@ export default function Home() {
                 {article.title}
               </h2>
             </Link>
-            <p className="text-gray-600 mb-2">{article.description}</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-2">{article.description}</p>
             <div className="flex items-center gap-3 text-sm text-gray-400">
               <time>{article.date}</time>
               <span>·</span>
