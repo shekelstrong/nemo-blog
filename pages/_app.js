@@ -1,68 +1,91 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
 import { siteConfig } from '../site.config'
 
 export default function App({ Component, pageProps }) {
-  const [dark, setDark] = useState(false)
-
-  useEffect(() => {
-    const saved = localStorage.getItem('theme')
-    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      setDark(true)
-      document.documentElement.classList.add('dark')
-    }
-  }, [])
-
-  const toggleTheme = () => {
-    const next = !dark
-    setDark(next)
-    document.documentElement.classList.toggle('dark', next)
-    localStorage.setItem('theme', next ? 'dark' : 'light')
-  }
 
   return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.jpg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+        {/* Yandex Metrika */}
         <script dangerouslySetInnerHTML={{__html: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++)if(document.scripts[j].src===r)return;k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(${siteConfig.yandexMetrikaId},"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});`}} />
+        {/* Google Analytics */}
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`}></script>
         <script dangerouslySetInnerHTML={{__html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${siteConfig.gaId}');`}} />
         <meta name="google-site-verification" content="VlUjOekvfzZ-dO7A7wOXb1nJYzwwxdyTqxYzxmHYHoY" />
         <meta name="yandex-verification" content="ff1e78e4049fa961" />
       </Head>
 
-      <div className="min-h-screen flex flex-col bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors">
-        {/* Nav */}
-        <nav className="sticky top-0 z-50 border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50/80 dark:bg-zinc-950/80 backdrop-blur-lg">
-          <div className="max-w-2xl mx-auto px-5 h-14 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2 no-underline text-zinc-900 dark:text-zinc-100 hover:opacity-80 transition-opacity">
-              <img src={siteConfig.logo} alt="" width={24} height={24} className="rounded-md" />
-              <span className="font-semibold text-sm tracking-tight">NEMO VPN Blog</span>
+      <div className="min-h-screen flex flex-col transition-colors">
+        {/* ─── HEADER ─── */}
+        <header className="sticky top-0 z-50 border-b backdrop-blur-xl bg-[hsl(var(--background))]/80">
+          <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-2.5 no-underline group">
+              <div className="w-8 h-8 rounded-lg bg-gradient-brand flex items-center justify-center">
+                <img src={siteConfig.logo} alt="" width={20} height={20} className="rounded opacity-90" />
+              </div>
+              <span className="font-semibold text-sm tracking-tight" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
+                NEMO <span className="text-gradient-brand">Blog</span>
+              </span>
             </a>
-            <div className="flex items-center gap-1">
-              <a href="/" className="px-3 py-1.5 text-sm text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-all no-underline font-medium">Статьи</a>
-              <a href="/about" className="px-3 py-1.5 text-sm text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-all no-underline font-medium">О сервисе</a>
-              <button onClick={toggleTheme} className="ml-1 w-8 h-8 flex items-center justify-center rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors text-sm" aria-label="Toggle theme">
-                {dark ? '☀️' : '🌙'}
-              </button>
-            </div>
-          </div>
-        </nav>
+            <nav className="flex items-center gap-1">
+              <a href="/" className="px-3.5 py-1.5 text-sm rounded-lg transition-all no-underline font-medium" style={{color: 'hsl(var(--muted-foreground))'}} onMouseEnter={e => e.target.style.background='hsl(var(--secondary))'} onMouseLeave={e => e.target.style.background='transparent'}>
+                Статьи
+              </a>
+              <a href="/about" className="px-3.5 py-1.5 text-sm rounded-lg transition-all no-underline font-medium" style={{color: 'hsl(var(--muted-foreground))'}} onMouseEnter={e => e.target.style.background='hsl(var(--secondary))'} onMouseLeave={e => e.target.style.background='transparent'}>
+                О сервисе
+              </a>
+              <a href={siteConfig.telegram} target="_blank" rel="noopener" className="px-3.5 py-1.5 text-sm rounded-lg transition-all no-underline font-medium" style={{color: 'hsl(var(--muted-foreground))'}} onMouseEnter={e => e.target.style.background='hsl(var(--secondary))'} onMouseLeave={e => e.target.style.background='transparent'}>
+                Telegram
+              </a>
 
-        {/* Content */}
-        <main className="flex-1 max-w-2xl mx-auto px-5 py-10 w-full">
+            </nav>
+          </div>
+        </header>
+
+        {/* ─── CONTENT ─── */}
+        <main className="flex-1 max-w-6xl mx-auto px-5 py-12 w-full">
           <Component {...pageProps} />
         </main>
 
-        {/* Footer */}
-        <footer className="border-t border-zinc-200 dark:border-zinc-800 py-8 mt-auto">
-          <div className="max-w-2xl mx-auto px-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400 dark:text-zinc-500">
-            <span>© {new Date().getFullYear()} NEMO VPN. Все права защищены.</span>
-            <div className="flex gap-4">
-              <a href={siteConfig.telegram} target="_blank" rel="noopener" className="hover:text-zinc-600 dark:hover:text-zinc-300 no-underline">Telegram</a>
-              <a href="/" className="hover:text-zinc-600 dark:hover:text-zinc-300 no-underline">Блог</a>
+        {/* ─── FOOTER ─── */}
+        <footer className="border-t py-12" style={{borderColor: 'hsl(var(--border))'}}>
+          <div className="max-w-6xl mx-auto px-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+              <div>
+                <div className="flex items-center gap-2.5 mb-3">
+                  <div className="w-8 h-8 rounded-lg bg-gradient-brand flex items-center justify-center">
+                    <img src={siteConfig.logo} alt="" width={20} height={20} className="rounded opacity-90" />
+                  </div>
+                  <span className="font-semibold text-sm tracking-tight" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
+                    NEMO VPN
+                  </span>
+                </div>
+                <p className="text-sm max-w-xs" style={{color: 'hsl(var(--muted-foreground))', lineHeight: '1.7'}}>
+                  VPN-сервис для цифровой безопасности. VLESS Reality, оплата МИР/СБП, 24ч бесплатно.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-xs font-bold uppercase tracking-widest mb-3" style={{color: 'hsl(var(--muted-foreground))'}}>Навигация</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="/" style={{color: 'hsl(var(--muted-foreground))', textDecoration: 'none'}} className="hover:underline">Все статьи</a></li>
+                  <li><a href="/about" style={{color: 'hsl(var(--muted-foreground))', textDecoration: 'none'}} className="hover:underline">О сервисе</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-xs font-bold uppercase tracking-widest mb-3" style={{color: 'hsl(var(--muted-foreground))'}}>Контакты</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><a href={siteConfig.telegram} target="_blank" rel="noopener" style={{color: 'hsl(var(--muted-foreground))', textDecoration: 'none'}} className="hover:underline">Telegram-бот</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" style={{borderTop: '1px solid hsl(var(--border))', color: 'hsl(var(--muted-foreground))'}}>
+              <span>© {new Date().getFullYear()} NEMO VPN. Все права защищены.</span>
             </div>
           </div>
         </footer>

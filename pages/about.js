@@ -9,7 +9,7 @@ export default function About() {
         <meta name="description" content="NEMO VPN — VPN-сервис на VLESS Reality с оплатой в рублях. Trial 24ч, живая поддержка." />
       </Head>
 
-      <div className="about-page">
+      <div className="max-w-2xl mx-auto about-page">
         <h1>О NEMO VPN</h1>
 
         <p>

@@ -73,7 +73,31 @@ const articles = [
     date: '22 апреля 2026',
     tags: ['сравнение', 'оплата'],
   },
+  {
+    slug: 'operatory-prosyat-otsrochku-platy-za-vpn-trafik',
+    title: 'Операторы просят отсрочить плату за VPN-трафик: что происходит и зачем',
+    description: 'Российские телеком-операторы обратились к Минцифры с просьбой отсрочить введение платы за VPN-трафик. Разбираём причины, последствия и как платный VPN спасает ситуацию.',
+    date: '22 апреля 2026',
+    tags: ['новости', 'законодательство'],
+  },
 ]
+
+const tagColors = {
+  'аналитика': 'bg-blue-50 text-blue-700',
+  'мобильные приложения': 'bg-purple-50 text-purple-700',
+  'технологии': 'bg-emerald-50 text-emerald-700',
+  'VLESS Reality': 'bg-cyan-50 text-cyan-700',
+  'новости': 'bg-amber-50 text-amber-700',
+  'образование': 'bg-pink-50 text-pink-700',
+  'цифровая безопасность': 'bg-red-50 text-red-700',
+  'безопасность': 'bg-red-50 text-red-700',
+  'законодательство': 'bg-indigo-50 text-indigo-700',
+  'гайд': 'bg-teal-50 text-teal-700',
+  'сравнение': 'bg-violet-50 text-violet-700',
+  'протоколы': 'bg-emerald-50 text-emerald-700',
+  'приватность': 'bg-sky-50 text-sky-700',
+  'оплата': 'bg-orange-50 text-orange-700',
+}
 
 export default function Home() {
   return (
@@ -83,25 +107,67 @@ export default function Home() {
         <meta name="description" content={siteConfig.description} />
       </Head>
 
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-2">Блог</h1>
-        <p className="text-zinc-500 dark:text-zinc-400 text-sm">
-          Статьи о цифровой безопасности, приватности и защите данных.
+      {/* Hero */}
+      <div className="mb-16 text-center max-w-2xl mx-auto">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium mb-6" style={{background: 'hsl(var(--accent-soft))', color: 'hsl(var(--accent))'}}>
+          <span className="w-1.5 h-1.5 rounded-full" style={{background: 'hsl(var(--accent))'}} />
+          Цифровая безопасность и приватность
+        </div>
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
+          Блог <span className="text-gradient-brand">NEMO VPN</span>
+        </h1>
+        <p className="text-lg" style={{color: 'hsl(var(--muted-foreground))', lineHeight: '1.7'}}>
+          Аналитика, гайды и новости о VPN, приватности и свободном интернете в России.
         </p>
       </div>
 
-      <div>
-        {articles.map(article => (
-          <Link key={article.slug} href={`/articles/${article.slug}`} className="article-card">
-            <h2 className="article-card-title">{article.title}</h2>
-            <p className="article-card-desc">{article.description}</p>
-            <div className="article-card-meta">
-              <span>{article.date}</span>
-              <span className="mx-1.5">·</span>
-              <span>{article.tags.join(', ')}</span>
+      {/* Articles Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {articles.map((article, i) => (
+          <Link key={article.slug} href={`/articles/${article.slug}`} className="group block rounded-2xl border p-6 transition-all duration-200 shadow-card hover:shadow-card-hover hover:-translate-y-0.5" style={{borderColor: 'hsl(var(--border))', background: 'hsl(var(--card))', textDecoration: 'none'}}>
+            {/* Decorative gradient bar */}
+            <div className="w-10 h-1 rounded-full bg-gradient-brand mb-5 opacity-60 group-hover:opacity-100 transition-opacity" />
+            
+            {/* Tags */}
+            <div className="flex flex-wrap gap-1.5 mb-4">
+              {article.tags.map(tag => (
+                <span key={tag} className={`px-2 py-0.5 rounded-full text-[11px] font-medium ${tagColors[tag] || 'bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400'}`}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+
+            {/* Title */}
+            <h2 className="text-lg font-semibold tracking-tight mb-3 text-[#0066FF] group-hover:opacity-80 transition-opacity" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
+              {article.title}
+            </h2>
+
+            {/* Description */}
+            <p className="text-sm mb-5 leading-relaxed line-clamp-2" style={{color: 'hsl(var(--muted-foreground))'}}>
+              {article.description}
+            </p>
+
+            {/* Meta */}
+            <div className="flex items-center gap-2 text-xs font-medium" style={{color: 'hsl(var(--muted-foreground))'}}>
+              <time>{article.date}</time>
             </div>
           </Link>
         ))}
+      </div>
+
+      {/* Newsletter / CTA */}
+      <div className="mt-16 rounded-2xl border p-8 text-center bg-dot-pattern relative overflow-hidden" style={{borderColor: 'hsl(var(--border))'}}>
+        <div className="relative">
+          <h3 className="text-xl font-bold mb-2" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
+            Попробуйте NEMO VPN бесплатно
+          </h3>
+          <p className="text-sm mb-5 max-w-md mx-auto" style={{color: 'hsl(var(--muted-foreground))'}}>
+            24 часа бесплатно. VLESS Reality, оплата МИР/СБП, живая поддержка.
+          </p>
+          <a href={siteConfig.telegram} target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold text-white no-underline bg-gradient-brand hover:opacity-90 transition-opacity">
+            Открыть в Telegram →
+          </a>
+        </div>
       </div>
     </>
   )
