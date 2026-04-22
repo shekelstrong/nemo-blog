@@ -23,18 +23,19 @@ a:hover {
   text-decoration: underline;
 }
 
-.prose h2 { margin-top: 2em; margin-bottom: 0.5em; font-size: 1.4em; font-weight: 700; }
-.prose h3 { margin-top: 1.5em; margin-bottom: 0.3em; font-size: 1.2em; font-weight: 600; }
-.prose p { margin-bottom: 1em; line-height: 1.7; }
+.prose h2 { margin-top: 2em; margin-bottom: 0.5em; font-size: 1.4em; font-weight: 700; color: #111827; }
+.prose h3 { margin-top: 1.5em; margin-bottom: 0.3em; font-size: 1.2em; font-weight: 600; color: #1f2937; }
+.prose p { margin-bottom: 1em; line-height: 1.7; color: #374151; }
 .prose ul, .prose ol { margin-bottom: 1em; padding-left: 1.5em; }
-.prose li { margin-bottom: 0.4em; line-height: 1.6; }
-.prose strong { font-weight: 600; }
+.prose li { margin-bottom: 0.4em; line-height: 1.6; color: #374151; }
+.prose strong { font-weight: 600; color: #111827; }
 .prose table { width: 100%; }
 
-.dark .prose h2, .dark .prose h3 { color: #e5e5e5; }
+.dark .prose h2 { color: #f9fafb; }
+.dark .prose h3 { color: #f3f4f6; }
 .dark .prose p, .dark .prose li { color: #d1d5db; }
 .dark .prose a { color: #60a5fa; }
-.dark .prose strong { color: #e5e5e5; }
+.dark .prose strong { color: #f9fafb; }
 .dark .prose table th { color: #e5e5e5; border-color: #374151; }
 .dark .prose table td { color: #d1d5db; border-color: #1f2937; }
 .dark .bg-blue-50 { background-color: #1e293b; }
