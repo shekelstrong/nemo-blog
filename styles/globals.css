@@ -206,9 +206,10 @@
   color: hsl(var(--muted-foreground));
 }
 .cta-button {
-  @apply inline-flex items-center gap-1.5 px-6 py-3 rounded-xl text-sm font-semibold text-white transition-all no-underline hover:opacity-90 hover:shadow-glow;
-  background: hsl(var(--accent));
-  color: white;
+  @apply inline-flex items-center gap-1.5 px-6 py-3 rounded-xl text-sm font-semibold transition-all no-underline hover:opacity-90;
+  background: #0066FF;
+  color: #ffffff !important;
+}
 }
 
 /* About page */
