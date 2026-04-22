@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script dangerouslySetInnerHTML={{__html: `try{const t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}`}} />
         <link rel="icon" href="/logo.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -43,7 +44,17 @@ export default function App({ Component, pageProps }) {
               <a href={siteConfig.telegram} target="_blank" rel="noopener" className="px-3.5 py-1.5 text-sm rounded-lg transition-all no-underline font-medium" style={{color: 'hsl(var(--muted-foreground))'}} onMouseEnter={e => e.target.style.background='hsl(var(--secondary))'} onMouseLeave={e => e.target.style.background='transparent'}>
                 Telegram
               </a>
-
+              <button
+                onClick={() => {
+                  const isDark = document.documentElement.classList.toggle('dark');
+                  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                }}
+                className="ml-2 w-9 h-9 flex items-center justify-center rounded-lg border transition-all hover:border-foreground/30"
+                style={{borderColor: 'hsl(var(--border))', background: 'hsl(var(--card))', color: 'hsl(var(--muted-foreground))'}}
+                aria-label="Переключить тему"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              </button>
             </nav>
           </div>
         </header>
