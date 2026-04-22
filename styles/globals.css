@@ -43,6 +43,7 @@
     --border: 217 33% 18%;
     --ring: 217 91% 60%;
   }
+}
 
 @layer base {
   * { @apply border-border; }
