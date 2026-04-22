@@ -1736,6 +1736,14 @@ if (slug === 'operatory-prosyat-otsrochku-platy-za-vpn-trafik') return (
   </>
 )
 
+
+  // ===== СТАТЬЯ 12 =====
+  if (slug === 'vpn-i-proksi-markery-narkotikami-v-shkolah') return (
+    <>
+      <h1>VPN и прокси теперь считаются маркерами наркотиков в школах</h1>
+{jsx}
+    </>
+  )
   return <p>Статья не найдена.</p>
 
   return <p>Статья не найдена.</p>
