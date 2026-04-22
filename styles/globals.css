@@ -77,19 +77,23 @@
 
 /* Article prose */
 .prose h2 {
-  @apply text-4xl font-bold tracking-tight mt-10 mb-6 pb-4;
+  @apply text-2xl font-bold tracking-tight mt-12 mb-4;
   color: hsl(var(--foreground));
-  border-bottom: 1px solid hsl(var(--border));
+}
+
+.prose h1 {
+  @apply text-3xl md:text-4xl font-bold tracking-tight mb-6;
+  color: hsl(var(--foreground));
 }
 
 .prose h3 {
-  @apply text-lg font-semibold mt-8 mb-3 tracking-tight;
+  @apply text-xl font-semibold mt-8 mb-3 tracking-tight;
   color: hsl(var(--foreground));
 }
 
 .prose p {
-  @apply mb-5 leading-7;
-  color: hsl(var(--muted-foreground));
+  @apply mb-5 leading-7 text-lg;
+  color: hsl(var(--foreground)/0.85);
 }
 
 .prose ul, .prose ol {
@@ -151,6 +155,13 @@
   border-radius: 0.5rem;
 }
 
+/* Article header */
+.article-header h1 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  @apply text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-4;
+  color: hsl(var(--foreground));
+}
+
 /* Back link */
 .back-link {
   @apply inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-opacity no-underline font-medium;
@@ -179,9 +190,9 @@
   color: hsl(var(--muted-foreground));
 }
 .cta-button {
-  @apply inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl text-sm font-semibold text-white transition-opacity no-underline hover:opacity-90;
-  background: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
+  @apply inline-flex items-center gap-1.5 px-6 py-3 rounded-xl text-sm font-semibold text-white transition-all no-underline hover:opacity-90 hover:shadow-glow;
+  background: hsl(var(--accent));
+  color: white;
 }
 
 /* About page */
