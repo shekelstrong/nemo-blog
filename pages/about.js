@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { siteConfig } from '../../site.config'
+import { siteConfig } from '../site.config'
 
 export default function About() {
   return (
