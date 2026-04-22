@@ -32,9 +32,9 @@ export default function App({ Component, pageProps }) {
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`}></script>
         <script dangerouslySetInnerHTML={{__html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${siteConfig.gaId}');`}} />
         {/* Google Search Console verification */}
-        <meta name="google-site-verification" content="ADD_YOUR_CODE_HERE" />
+        <meta name="google-site-verification" content="VlUjOekvfzZ-dO7A7wOXb1nJYzwwxdyTqxYzxmHYHoY" />
         {/* Yandex Webmaster verification */}
-        <meta name="yandex-verification" content="ADD_YOUR_CODE_HERE" />
+        <meta name="yandex-verification" content="ff1e78e4049fa961" />
       </Head>
       <div className="min-h-screen flex flex-col bg-white dark:bg-gray-950 transition-colors">
         <header className="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 sticky top-0 z-10">

@@ -5,5 +5,5 @@ export const siteConfig = {
   telegram: "https://t.me/nemo_vpn_bot?start=6318513424",
   logo: "/logo.jpg",
   yandexMetrikaId: "ADD_YOUR_ID",
-  gaId: "ADD_YOUR_ID",
+  gaId: "G-GT1X2H6QY4",
 }
