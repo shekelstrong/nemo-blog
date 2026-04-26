@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'pochemu-vpn-tormozit-v-2026-i-kak-uvelichit-skorost',
+    title: 'Почему VPN тормозит в 2026 и как увеличить скорость',
+    description: 'VPN стал медленным в 2026? РКН использует DPI-замедление: пинг есть, но данные не загружаются. Разбираем 5 причин тормозов и 6 способов увеличить скорость VPN. Таблица сравнения протоколов, настройка MTU, split tunneling и CDN-masking.',
+    date: '26 апреля 2026',
+    tags: ['гайд', 'VPN', 'скорость', 'оптимизация', 'WireGuard', 'DPI', 'блокировки'],
+  },
+  {
     slug: 'kak-nastroit-vpn-na-android-i-iphone-v-2026',
     title: 'Как настроить VPN на Android и iPhone в 2026: пошаговая инструкция',
     description: 'Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Через приложения, вручную, VLESS Reality через v2rayNG/HAPP. Проверка работоспособности, частые проблемы и решения.',
