@@ -4,6 +4,14 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-bez-logov-s-oplatoy-kriptovalyutoy-polnyy-gayd-po-privatnosti-v-2026',
+    title: 'VPN без логов с оплатой криптовалютой: полный гайд по приватности в 2026',
+    description: 'Полный гайд по выбору VPN без логов с оплатой криптовалютой. Сравнение NordVPN, ExpressVPN, PIA, Proton, Surfshark. Что такое no-logs политика, независимые аудиты, RAM-only серверы. Как оплатить VPN из России через CryptoBot, обменники, P2P. Нестандартная оплата картой МИР в России под угрозой блокировки.
+',
+    date: '26 апреля 2026',
+    tags: ['VPN', 'приватность', 'криптовалюта', 'no-logs', 'безопасность', 'NordVPN', 'ExpressVPN', 'PIA', 'Proton', 'Surfshark'],
+  },
+  {
     slug: 'residential-vs-datacenter-ip-vpn-pochemu-tip-adresa-imeet-znachenie-v-2026',
     title: 'Residential IP vs Datacenter IP для VPN: почему тип адреса имеет значение в 2026',
     description: 'Datacenter IP легко определяется VPN-детекторами и блокируется платформами (Ozon, WB, Яндекс, VK). Residential IP от обычных ISP выглядит как обычный пользователь и обходит проверки. Сравнение типов IP-адресов, как платформы определяют VPN через ASN, репутацию, Whois и почему NEMO VPN использует residential IP + VLESS Reality.',
