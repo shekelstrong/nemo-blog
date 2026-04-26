@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'zapret-kak-oboyti-blokirovki-bez-vpn-v-2026-polnyy-gayd',
+    title: 'Zapret: как обойти блокировки без VPN в 2026 — полный гайд',
+    description: 'Zapret — бесплатный инструмент для обхода DPI-блокировок без VPN. Работает через модификацию TCP-пакетов: fragment packets, host split, DNS redirect. Установка на Windows (Zapret GUI) и Linux, выбор стратегии (general, discord, youtube), настройка под провайдера. Плюсы и минусы, когда достаточно Zapret, а когда нужен VPN. NEMO VPN CTA.',
+    date: '26 апреля 2026',
+    tags: ['Zapret', 'DPI', 'блокировки', 'обход DPI', 'Linux', 'Windows', 'YouTube', 'VPN', 'приватность'],
+  },
+  {
     slug: 'vpn-dlya-biznesa-v-rossii-2026-kak-kompanii-adaptiruyutsya-k-blokirovkam',
     title: 'VPN для бизнеса в России 2026: как компании адаптируются к блокировкам',
     description: 'Корпоративный VPN узаконен: 1700+ компаний получили доступ. ФСБ мониторит IT-компании, бизнес платит миллиарды рублей за VPN. Топ-10 российских VPN для бизнеса, калькуляция затрат для малого/среднего/крупного бизнеса, риски IT-аккредитации, как адаптироваться — полный гайд.',
