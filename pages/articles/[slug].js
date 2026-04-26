@@ -3,6 +3,12 @@ import Link from 'next/link'
 import { siteConfig } from '../../site.config'
 
 const articleMeta = {
+  'vpn-posle-1-maya-2026-polnoe-rukovodstvo': {
+    title: 'VPN после 1 мая 2026: полное руководство для пользователей России',
+    description: 'Apple удалила VPN-приложения из App Store, вводится плата за международный трафик, платформы блокируют VPN-пользователей. Что делать и как подготовиться к 1 мая 2026 года.',
+    date: '2026-04-26',
+    tags: ['новости', 'законодательство', 'VPN', 'руководство'],
+  },
   'kak-vybrat-vpn-2026': {
     title: 'Как выбрать VPN в 2026 году: полное руководство',
     description: 'Разбираемся в протоколах, скорости, безопасности и цене. Что реально важно при выборе VPN для использования в России.',
@@ -82,6 +88,9 @@ const articleMeta = {
     tags: ['новости', 'законодательство', 'VPN'],
   },
 }
+
+// Note: 'vpn-posle-1-maya-2026-polnoe-rukovodstvo' is a standalone page (separate .js file)
+// Other articles use the dynamic [slug].js page
 
 export async function getStaticPaths() {
   return {
