@@ -4,6 +4,27 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'shtrafy-za-vpn-v-rossii-v-2026-mify-realnost-i-chto-realno-grozit-polzovatelyam',
+    title: 'Штрафы за VPN в России в 2026: мифы, реальность и что реально грозит пользователям',
+    description: 'Уголовной ответственности за использование VPN в России не существует. Разбираем мифы о штрафах, что реально говорит закон №281, какие штрафы грозят владельцам VPN, когда использование VPN становится уголовным преступлением, и что делать обычным пользователям. NEMO VPN — легальный сервис с оплатой в рублях.',
+    date: '26 апреля 2026',
+    tags: ['VPN', 'штрафы', 'законодательство', 'закон №281', 'блокировки', 'безопасность', 'Роскомнадзор', '2026'],
+  },
+  {
+    slug: 'kill-switch-i-dns-leak-pochemu-vash-vpn-mozhet-vas-podvesti-v-2026',
+    title: 'Kill Switch и DNS Leak: почему ваш VPN может вас подвести в 2026',
+    description: 'Kill Switch отключает интернет при разрыве VPN, DNS Leak раскрывает ваши запросы DNS. В 2026 году оба критически важны. Почему бесплатный VPN не защищает от утечек, какие VPN имеют лучший Kill Switch, и как проверить свой VPN на утечки онлайн-тестами.',
+    date: '26 апреля 2026',
+    tags: ['VPN', 'Kill Switch', 'DNS Leak', 'безопасность', 'приватность', 'утечки', 'NordVPN', 'Surfshark', 'Proton VPN', 'ExpressVPN'],
+  },
+  {
+    slug: 'vpn-na-routere-kak-zashchitit-ves-dom-odnim-ustroystvom-v-2026',
+    title: 'VPN на роутере: как защитить весь дом одним устройством в 2026',
+    description: 'Полный гайд по настройке VPN на роутере с прошивкой OpenWRT. Защитите все устройства дома одним кликом: Smart TV, IoT, консоли, телефоны. Прошивка, Passwall2, VLESS Reality + XHTTP, Hysteria2, 4G LTE роутеры. Обход 15 ГБ лимита — трафик не считается мобильным.',
+    date: '26 апреля 2026',
+    tags: ['VPN', 'роутер', 'OpenWRT', 'VLESS Reality', 'маршрутизация', 'защита сети', 'DIY', '2026'],
+  },
+  {
     slug: 'zapret-kak-oboyti-blokirovki-bez-vpn-v-2026-polnyy-gayd',
     title: 'Zapret: как обойти блокировки без VPN в 2026 — полный гайд',
     description: 'Zapret — бесплатный инструмент для обхода DPI-блокировок без VPN. Работает через модификацию TCP-пакетов: fragment packets, host split, DNS redirect. Установка на Windows (Zapret GUI) и Linux, выбор стратегии (general, discord, youtube), настройка под провайдера. Плюсы и минусы, когда достаточно Zapret, а когда нужен VPN. NEMO VPN CTA.',
