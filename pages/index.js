@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'limit-15-gb-vpn-traffic-may-2026',
+    title: 'Лимит 15 ГБ на VPN-трафик: всё что известно о плате с 1 мая 2026',
+    description: 'С 1 мая 2026 года в России вводится плата за международный трафик: 15 ГБ бесплатно, далее 150₽ за ГБ. Как будет работать, кто платит, как сэкономить и обойти ограничение.',
+    date: '26 апреля 2026',
+    tags: ['новости', 'законодательство', 'мобильный интернет', 'VPN', 'операторы связи', 'МТС', 'Билайн', 'Мегафон', 'Tele2'],
+  },
+  {
+    slug: 'rossiyanam-mogut-zablokirovat-oplatu-vpn-chto-proiskhodit-i-kak-platit',
+    title: 'Россиянам могут заблокировать оплату VPN: что происходит и как платить',
+    description: 'Россиянам готовят блокировку оплаты VPN с российских карт. Провайдеры ожидают масштабной зачистки. Казахстанские банки под угрозой. Разбираем, какие способы оплаты работают сейчас: МИР, СБП, YooMoney, криптовалюта, виртуальные карты. Как подготовиться и NEMO VPN — оплата рублями через CryptoBot.',
+    date: '26 апреля 2026',
+    tags: ['новости', 'блокировки', 'оплата', 'VPN', 'криптовалюта', 'МИР', 'СБП'],
+  },
+  {
     slug: 'sravnenie-vpn-protokolov-2026-wireguard-openvpn-shadowsocks-vless-reality-xhttp-chto-vybrat-v-rossii',
     title: 'Сравнение VPN-протоколов 2026: WireGuard, OpenVPN, Shadowsocks, VLESS Reality, XHTTP — что выбрать в России',
     description: 'Полное сравнение VPN-протоколов в 2026 году: PPTP, L2TP/IPSec, OpenVPN, WireGuard, IKEv2/IPSec, Shadowsocks, VLESS Reality, XHTTP, Trojan. Таблица характеристик: скорость, безопасность, обход DPI. Какой протокол выбрать в России для разных сценариев использования.',
