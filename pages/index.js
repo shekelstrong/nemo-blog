@@ -4,6 +4,27 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'sravnenie-vpn-protokolov-2026-wireguard-openvpn-shadowsocks-vless-reality-xhttp-chto-vybrat-v-rossii',
+    title: 'Сравнение VPN-протоколов 2026: WireGuard, OpenVPN, Shadowsocks, VLESS Reality, XHTTP — что выбрать в России',
+    description: 'Полное сравнение VPN-протоколов в 2026 году: PPTP, L2TP/IPSec, OpenVPN, WireGuard, IKEv2/IPSec, Shadowsocks, VLESS Reality, XHTTP, Trojan. Таблица характеристик: скорость, безопасность, обход DPI. Какой протокол выбрать в России для разных сценариев использования.',
+    date: '26 апреля 2026',
+    tags: ['сравнение', 'протоколы', 'VPN', 'гайд', 'VLESS Reality', 'WireGuard', 'OpenVPN', 'Shadowsocks', 'XHTTP'],
+  },
+  {
+    slug: 'istoriya-blokirovok-interneta-v-rossii',
+    title: 'История блокировок интернета в России: от первого закона до белых списков 2026',
+    description: 'Полная хроника: 2012–2019 первые блокировки, 2020–2022 соцсети, 2023–2024 VPN под ударом, 2025 массовые отключения, 2026 Telegram заблокирован, 469 VPN. Прогноз на 2026–2027 и как подготовиться.',
+    date: '26 апреля 2026',
+    tags: ['история', 'блокировки', 'интернет', 'РКН', 'VPN', 'законодательство', 'ТСПУ'],
+  },
+  {
+    slug: 'tls-fingerprinting-kak-vas-vychislyayut-dazhe-cherez-vpn',
+    title: 'TLS-фингерпринтинг: как вас вычисляют даже через VPN и что с этим делать',
+    description: 'TLS-фингерпринтинг — метод идентификации пользователей по характеристикам зашифрованного соединения. JA3, JA4, JA4+, 4 уровня обнаружения, почему обычный VPN «светится» и как VLESS Reality с XHTTP обходят детекцию.',
+    date: '26 апреля 2026',
+    tags: ['безопасность', 'TLS', 'JA3', 'JA4', 'фингерпринтинг', 'DPI', 'VLESS Reality'],
+  },
+  {
     slug: 'besplatnyy-vs-platnyy-vpn-2026-skrytye-riski-i-alternativy',
     title: 'Бесплатный VPN vs платный VPN в 2026 году: скрытые риски и реальные альтернативы',
     description: 'Сравнение бесплатного и платного VPN в 2026 году. Скрытые риски бесплатных сервисов: продажа данных, malware, утечки. KelVPN — децентрализованная альтернатива от Сбербанка. Почему VLESS Reality + платный сервис надёжнее.',
