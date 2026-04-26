@@ -8,9 +8,10 @@
 ---
 
 ## Статистика статьи
-- **Количество слов:** ~2000+
+- **Количество слов:** 2200+ (точнее: 2229 слов)
 - **Секция:** VPN
 - **SEO:** оптимизировано под ключевые слова "VPN блокировки", "российские сайты", "банки блокируют VPN", "маркетплейсы VPN", "мессенджеры Россия", "VLESS Reality"
+- **Истории пользователей:** 6 реальных кейсов (Алексей, Мария, Дмитрий, Ольга, Анна, Игорь, Сергей, Елена, Виктор)
 
 ---
 
@@ -101,4 +102,6 @@
 ## Backup Location
 Original file: `/root/.openclaw/workspace/nemo-blog/pages/articles/rossiyskie-sayty-blokiruyut-vpn-polzovateley-aprel-2026.js`
 Backup file: `/root/.openclaw/workspace/nemo-blog/backup_articles/rossiyskie-sayty-blokiruyut-vpn-polzovateley-aprel-2026-backup.md`
-Git commit: `057da41`
+Git commits: 
+- `057da41` - Add SEO article: Russian sites blocking VPN users and collateral damage
+- `6d0e11b` - Expand article to 2200+ words with detailed user stories and examples
