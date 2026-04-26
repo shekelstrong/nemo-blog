@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'kak-tspu-lovit-vless-i-pochemu-xhttp-sleduyushchiy-shag-2026',
+    title: 'Как ТСПУ ловит VLESS в 2026 и почему XHTTP — следующий шаг',
+    description: 'Технический разбор: как DPI систематически обнаруживает VLESS+Reality через JA3-хэши, TLS-профайлинг и активное зондирование. Почему XHTTP становится новой эволюцией обхода блокировок.',
+    date: '26 апреля 2026',
+    tags: ['технологии', 'VLESS', 'XHTTP', 'DPI', 'TSPU', 'блокировки'],
+  },
+  {
     slug: 'rossiyskie-sayty-blokiruyut-vpn-polzovateley-aprel-2026',
     title: 'Российские сайты блокируют VPN-пользователей: апрель 2026',
     description: 'Банки, маркетплейсы и мессенджеры начали блокировать доступ с VPN. Коллатеральный ущерб: пользователи вынуждены включать и выключать VPN по 10+ раз в день. VLESS Reality — решение.',
