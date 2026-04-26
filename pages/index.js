@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'residential-vs-datacenter-ip-vpn-pochemu-tip-adresa-imeet-znachenie-v-2026',
+    title: 'Residential IP vs Datacenter IP для VPN: почему тип адреса имеет значение в 2026',
+    description: 'Datacenter IP легко определяется VPN-детекторами и блокируется платформами (Ozon, WB, Яндекс, VK). Residential IP от обычных ISP выглядит как обычный пользователь и обходит проверки. Сравнение типов IP-адресов, как платформы определяют VPN через ASN, репутацию, Whois и почему NEMO VPN использует residential IP + VLESS Reality.',
+    date: '26 апреля 2026',
+    tags: ['VPN', 'безопасность', 'Residential IP', 'Datacenter IP', 'VLESS Reality', 'блокировки', 'ASN', 'Ozon', 'Wildberries', 'Яндекс'],
+  },
+  {
+    slug: 'chem-zamenit-telegram-i-whatsapp-v-2026-8-rabochih-alternativnyh-messendzherow',
+    title: 'Чем заменить Telegram и WhatsApp в 2026: 8 рабочих альтернативных мессенджеров',
+    description: 'Telegram и WhatsApp заблокированы в России с апреля 2026. MAX — не альтернатива (слежка, данные, ограничения). 8 реальных рабочих мессенджеров: Signal, BiP, KakaoTalk, Google Meet, Яндекс Мессенджер, Matrix/Element, XMPP, Threema. Сравнительная таблица и как общаться безопасно через VPN.',
+    date: '26 апреля 2026',
+    tags: ['мессенджеры', 'альтернативы', 'блокировки', 'MAX', 'Signal', 'BiP', 'KakaoTalk', 'безопасность', 'E2E шифрование', 'VPN'],
+  },
+  {
     slug: 'pochemu-vpn-tormozit-v-2026-i-kak-uvelichit-skorost',
     title: 'Почему VPN тормозит в 2026 и как увеличить скорость',
     description: 'VPN стал медленным в 2026? РКН использует DPI-замедление: пинг есть, но данные не загружаются. Разбираем 5 причин тормозов и 6 способов увеличить скорость VPN. Таблица сравнения протоколов, настройка MTU, split tunneling и CDN-masking.',
