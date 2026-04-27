@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-na-android-polnoe-rukovodstvo-po-nastroyke-xray-i-v2ray-v-2026',
+    title: 'VPN на Android: полное руководство по настройке Xray и v2Ray в 2026',
+    description: 'Полное руководство по настройке VPN на Android с Xray и v2Ray в 2026 году. Лучшие приложения (v2rayNG, v2RayTun, Sing-box, Hysteria2), установка, импорт конфигурации, настройка протоколов (VLESS, VMess, Trojan), VLESS Reality, оптимизация батареи, Kill Switch, автозапуск, разрешения Android 12+ и troubleshooting.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'VPN', 'Android', 'Xray', 'v2Ray', 'VLESS Reality', 'настройка', 'обход блокировок', 'v2rayNG', '2026'],
+  },
+  {
+    slug: 'hysteria2-protokol-budushchego-dlya-obhoda-blokirovok-v-2026',
+    title: 'Hysteria2: протокол будущего для обхода блокировок в 2026',
+    description: 'Hysteria2 — современный прокси-протокол на базе QUIC для обхода блокировок в 2026. Как работает Hysteria2, почему он устойчив к DPI, Brutal vs Salamander обфускация, сравнение с VLESS Reality и WireGuard. Когда Hysteria2 падает и почему NEMO VPN использует его в связке с VLESS Reality.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'Hysteria2', 'QUIC', 'обход DPI', 'протоколы', '2026', 'блокировки', 'VLESS Reality', 'WireGuard'],
+  },
+  {
     slug: 'vpn-na-windows-11-polnoe-rukovodstvo-po-nastroyke-v-2026',
     title: 'VPN на Windows 11: полное руководство по настройке в 2026',
     description: 'Полное руководство по настройке VPN на Windows 11 в 2026 году. Встроенный VPN, настройка через проводник, протоколы PPTP/L2TP/SSTP/IKEv2, WireGuard, OpenVPN, VLESS/Xray, автозапуск, проверка утечек и troubleshooting.',
