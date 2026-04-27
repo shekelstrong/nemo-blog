@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-striminga-v-2026-kak-smotret-netflix-youtube-i-4k-bez-buferizatsii',
+    title: 'VPN для стриминга в 2026: как смотреть Netflix, YouTube и 4K без буферизации',
+    description: 'Полный гайд по выбору VPN для стриминга в 2026 году. Как обойти ISP throttling, смотреть Netflix в России, 4K на YouTube, WireGuard vs OpenVPN, NordLynx, Lightway, тестирование скорости и пинга. Требуемая скорость для 4K — 15 Мбит/с, для HD — 5 Мбит/с.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'стриминг', 'Netflix', 'YouTube', '4K', 'throttling', 'WireGuard', 'NordLynx', 'Speedtest', 'буферизация'],
+  },
+  {
     slug: 'best-vpn-russia-2026',
     title: 'Лучшие VPN-провайдеры для России в 2026: полное сравнение и рейтинг',
     description: 'Подробный обзор лучших VPN-сервисов для России в 2026 году. Сравнение скорости, протоколов, цен и безопасности. NordVPN, ExpressVPN, Proton VPN, Surfshark, CyberGhost, IPVanish, PIA, Mullvad. VLESS Reality, residential IP, обход TSPU/DPI.',
