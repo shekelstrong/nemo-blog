@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'kak-oplatit-vpn-kartoy-mir-i-drugimi-rossiyskimi-sposobami-v-2026',
+    title: 'Как оплатить VPN картой МИР и другими российскими способами в 2026',
+    description: 'Полный гайд по оплате VPN картой МИР, CryptoBot, Platega, ЮMoney, криптовалютой и другими способами из России. Почему иностранные карты не работают, как безопасно оплатить VPN без Visa/Mastercard, сравнение способов, защита от мошенничества и NEMO VPN с оплатой в рублях.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'оплата', 'карта МИР', 'CryptoBot', 'Platega', 'ЮMoney', 'криптовалюта', 'Россия 2026', 'NEMO VPN'],
+  },
+  {
     slug: 'cloudflare-zero-trust-i-tunneli-alternativa-vpn-v-2026',
     title: 'Cloudflare Zero Trust и туннели: альтернатива VPN в 2026',
     description: 'Cloudflare Zero Trust заменяет традиционный VPN для бизнеса. Как работают Cloudflare Tunnels, чем лучше обычного VPN, альтернативы (Ngrok, Tailscale, Pinggy, Localtunnel, Frp, Boring Proxy), для кого подходит, настройка и сравнение с VPN в России 2026.',
