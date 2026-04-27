@@ -1,8 +1,8 @@
 ---
-title: Как настроить VPN на Android и iPhone в 2026: пошаговая инструкция
-date: 26 апреля 2026
+title: 'Как настроить VPN на Android и iPhone в 2026: пошаговая инструкция'
+date: '26 апреля 2026'
 tags: [инструкции, VPN, Android, iPhone, iOS, настройка, VLESS Reality, руководство]
-description: Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Через приложения, вручную, VLESS Reality через v2rayNG/HAPP. Проверка работоспособности, частые проблемы и решения.
+description: 'Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Через приложения, вручную, VLESS Reality через v2rayNG/HAPP. Проверка работоспособности, частые проблемы и решения.'
 ---
 
 import { HowTo, HowToStep } from '@components/HowTo'

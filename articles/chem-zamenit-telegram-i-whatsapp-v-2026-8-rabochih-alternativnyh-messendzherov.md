@@ -1,8 +1,8 @@
 ---
-title: Чем заменить Telegram и WhatsApp в 2026: 8 рабочих альтернативных мессенджеров
-date: 26 апреля 2026
+title: 'Чем заменить Telegram и WhatsApp в 2026: 8 рабочих альтернативных мессенджеров'
+date: '26 апреля 2026'
 tags: [мессенджеры, альтернативы, блокировки, MAX, Signal, BiP, KakaoTalk, безопасность, E2E шифрование, VPN]
-description: Telegram и WhatsApp заблокированы в России с апреля 2026. MAX — не альтернатива (слежка, данные, ограничения). 8 реальных рабочих мессенджеров: Signal, BiP, KakaoTalk, Google Meet, Яндекс Мессенджер, Matrix/Element, XMPP, Threema. Сравнительная таблица и как общаться безопасно через VPN.
+description: 'Telegram и WhatsApp заблокированы в России с апреля 2026. MAX — не альтернатива (слежка, данные, ограничения). 8 реальных рабочих мессенджеров: Signal, BiP, KakaoTalk, Google Meet, Яндекс Мессенджер, Matrix/Element, XMPP, Threema. Сравнительная таблица и как общаться безопасно через VPN.'
 ---
 
 ## Telegram и WhatsApp заблокированы — что делать?
