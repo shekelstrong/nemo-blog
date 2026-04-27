@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'privatnaya-pochta-v-2026-proton-mail-tutanota-i-zachem-vpn-dlya-elektronnoy-pochty',
+    title: 'Приватная почта в 2026: Proton Mail, Tutanota и зачем VPN для электронной почты',
+    description: 'Почему Gmail, Mail.ru и Яндекс.Почта не приватны. Сравнение Proton Mail, Tutanota и Mailfence с E2E-шифрованием. Как VPN защищает от утечек metadata и обходит блокировки Proton в России.',
+    date: '27 апреля 2026',
+    tags: ['приватность', 'электронная почта', 'E2E шифрование', 'Proton Mail', 'Tutanota', 'Mailfence', 'VPN', 'безопасность'],
+  },
+  {
+    slug: 'kakoy-vpn-protokol-samyy-bystryy-test-wireguard-vless-hysteria2-i-openvpn-v-2026',
+    title: 'Какой VPN-протокол самый быстрый: тест WireGuard, VLESS, Hysteria2 и OpenVPN в 2026',
+    description: 'Полное сравнение скорости VPN-протоколов в 2026: WireGuard, VLESS Reality, Hysteria2, OpenVPN, IKEv2, Trojan, Shadowsocks. Бенчмарк тестов, 4 причины замедления, как протестировать скорость VPN (speedtest.net, iperf3, Cloudflare), выбор для России. VLESS Reality + XHTTP — самый быстрый и незаметный протокол.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'скорость', 'протоколы', 'WireGuard', 'VLESS Reality', 'Hysteria2', 'OpenVPN', 'бенчмарк', '2026', 'тестирование', 'DPI'],
+  },
+  {
     slug: 'split-tunneling-vpn-kak-razdelit-trafik-rossiyskie-sayty-pryamo-blokirovannye-cherez-vpn-v-2026',
     title: 'Split Tunneling VPN: как разделить трафик — российские сайты напрямую, заблокированные через VPN в 2026',
     description: 'Полный гайд по Split Tunneling VPN в России 2026: как направить российские сайты напрямую, а заблокированные через VPN. Настройка на Android (V2rayNG, Streisand, NekoBox), iOS (Streisand, v2Box), Windows (Xray-core, AmneziaVPN, NekoRay), Linux (AmneziaWG, ip route) и роутерах (OpenWrt, Passwall2). Include mode vs Exclude mode, маршрутизация по доменам, IP и приложениям. Безопасность: DNS-утечки, WebRTC, IPv6. NEMO VPN CTA — готовые конфиги с автоматической маршрутизацией.',
