@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'yandeks-vk-ozon-blokiruyut-vpn-chto-proiskhodit-i-kak-oboyti-v-2026',
+    title: 'Яндекс, VK, Ozon блокируют VPN: что происходит и как обойти в 2026',
+    description: '15 апреля 2026 года российские платформы начали блокировать VPN-пользователей. Яндекс, VK, Ozon, Wildberries и банки ограничивают функциональность при включённом VPN. Разбираем, как определяется VPN (IP, ASN, направление трафика, WebRTC), что такое белые списки, почему iPhone сложнее детектировать (Apple privacy), IT-проекты на паузе и как обойти блокировки с помощью split tunneling, selective VPN, residential IP и NEMO VPN с VLESS Reality.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'блокировки', 'Яндекс', 'VK', 'Ozon', 'Wildberries', 'банки', 'белые списки', 'VLESS Reality', '2026'],
+  },
+  {
     slug: 'shtrafy-za-vpn-v-rossii-v-2026-mify-realnost-i-chto-realno-grozit-polzovatelyam',
     title: 'Штрафы за VPN в России в 2026: мифы, реальность и что реально грозит пользователям',
     description: 'Уголовной ответственности за использование VPN в России не существует. Разбираем мифы о штрафах, что реально говорит закон №281, какие штрафы грозят владельцам VPN, когда использование VPN становится уголовным преступлением, и что делать обычным пользователям. NEMO VPN — легальный сервис с оплатой в рублях.',
