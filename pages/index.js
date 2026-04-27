@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'cloudflare-zero-trust-i-tunneli-alternativa-vpn-v-2026',
+    title: 'Cloudflare Zero Trust и туннели: альтернатива VPN в 2026',
+    description: 'Cloudflare Zero Trust заменяет традиционный VPN для бизнеса. Как работают Cloudflare Tunnels, чем лучше обычного VPN, альтернативы (Ngrok, Tailscale, Pinggy, Localtunnel, Frp, Boring Proxy), для кого подходит, настройка и сравнение с VPN в России 2026.',
+    date: '27 апреля 2026',
+    tags: ['Zero Trust', 'Cloudflare Tunnel', 'VPN', 'безопасность', 'бизнес', 'IoT', 'self-hosted', 'разработка', 'гейминг', '2026'],
+  },
+  {
+    slug: 'vpn-blokirovka-marketpleysov-uronila-prodazhi-chto-proiskhodit-s-ozon-wildberries-i-yandeks-market-v-2026',
+    title: 'VPN-блокировка маркетплейсов уронила продажи: что происходит с Ozon, Wildberries и Яндекс Маркет в 2026',
+    description: '15 апреля маркетплейсы начали блокировать VPN-пользователей. Ozon, Wildberries, Яндекс Маркет ограничивают доступ при включённом VPN. Падение продаж у селлеров, жалобы покупателей, split tunneling, умная маршрутизация — как обойти блокировки и не терять доход.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'блокировки', 'Ozon', 'Wildberries', 'Яндекс Маркет', 'маркетплейсы', 'продажи', 'селлеры', 'split tunneling', 'VLESS Reality', 'NEMO VPN'],
+  },
+  {
     slug: 'vpn-dlya-striminga-v-2026-kak-smotret-netflix-youtube-i-4k-bez-buferizatsii',
     title: 'VPN для стриминга в 2026: как смотреть Netflix, YouTube и 4K без буферизации',
     description: 'Полный гайд по выбору VPN для стриминга в 2026 году. Как обойти ISP throttling, смотреть Netflix в России, 4K на YouTube, WireGuard vs OpenVPN, NordLynx, Lightway, тестирование скорости и пинга. Требуемая скорость для 4K — 15 Мбит/с, для HD — 5 Мбит/с.',
