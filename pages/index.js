@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'moshenniki-pod-vidom-vpn-kak-krazh-dannyh-vyrosla-na-38-v-2026-godu',
+    title: 'Мошенники под видом VPN: как кража данных выросла на 38% в 2026 году',
+    description: 'Число краж данных через VPN выросло на 38% в 2026 году. Злоумышленники используют интерес к VPN на фоне блокировок мессенджеров. Как работают мошенники с бесплатными VPN, фейковые приложения, embedded malware, схемы мошенничества. Красные флаги, как проверить VPN перед установкой, безопасные VPN с аудитами (NordVPN, ExpressVPN, Proton VPN), VPN vs прокси, практический чек-лист и NEMO VPN CTA.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'мошенничество', 'кража данных', 'безопасность', 'киберпреступность', 'приватность', '2026'],
+  },
+  {
     slug: 'vpn-na-linux-polnoe-rukovodstvo-po-nastroyke-v-2026-ubuntu-debian-fedora-arch',
     title: 'VPN на Linux: полное руководство по настройке в 2026 (Ubuntu, Debian, Fedora, Arch)',
     description: 'Полное руководство по настройке VPN на Linux в 2026 году. WireGuard, OpenVPN, VLESS/Xray, Sing-box, SoftEther — все методы для Ubuntu, Debian, Fedora и Arch Linux. Автозапуск, проверка утечек, сравнение протоколов.',
