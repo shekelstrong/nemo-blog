@@ -1,8 +1,8 @@
 ---
-title: Kill Switch и DNS Leak: почему ваш VPN может вас подвести в 2026
-date: 26 апреля 2026
+title: 'Kill Switch и DNS Leak: почему ваш VPN может вас подвести в 2026'
+date: '26 апреля 2026'
 tags: [VPN, Kill Switch, DNS Leak, безопасность, приватность, утечки, NordVPN, Surfshark, Proton VPN, ExpressVPN]
-description: Kill Switch отключает интернет при разрыве VPN, DNS Leak раскрывает ваши запросы DNS. В 2026 году оба критически важны. Почему бесплатный VPN не защищает от утечек, какие VPN имеют лучший Kill Switch, и как проверить свой VPN на утечки онлайн-тестами.
+description: 'Kill Switch отключает интернет при разрыве VPN, DNS Leak раскрывает ваши запросы DNS. В 2026 году оба критически важны. Почему бесплатный VPN не защищает от утечек, какие VPN имеют лучший Kill Switch, и как проверить свой VPN на утечки онлайн-тестами.'
 ---
 
 ## Kill Switch: ваш аварийный тормоз в мире VPN

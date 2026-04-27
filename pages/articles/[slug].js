@@ -1,5 +1,9 @@
+import fs from 'fs'
+import path from 'path'
 import Head from 'next/head'
 import Link from 'next/link'
+import matter from 'gray-matter'
+import { marked } from 'marked'
 import { siteConfig } from '../../site.config'
 
 const articleMeta = {
@@ -93,26 +97,65 @@ const articleMeta = {
 // Other articles use the dynamic [slug].js page
 
 export async function getStaticPaths() {
+  const metaSlugs = Object.keys(articleMeta)
+
+  const articlesDir = path.join(process.cwd(), 'articles')
+  const mdSlugs = fs.existsSync(articlesDir)
+    ? fs.readdirSync(articlesDir).filter(f => f.endsWith('.md')).map(f => f.replace('.md', ''))
+    : []
+
+  const pagesDir = path.join(process.cwd(), 'pages', 'articles')
+  const standaloneFiles = fs.readdirSync(pagesDir)
+    .filter(f => f.endsWith('.js') && f !== '[slug].js')
+    .map(f => f.replace('.js', ''))
+  const standaloneSet = new Set(standaloneFiles)
+
+  const allSlugs = [...new Set([...metaSlugs, ...mdSlugs])]
+    .filter(slug => !standaloneSet.has(slug))
+
   return {
-    paths: Object.keys(articleMeta).map(slug => ({ params: { slug } })),
+    paths: allSlugs.map(slug => ({ params: { slug } })),
     fallback: false,
   }
 }
 
 export async function getStaticProps({ params }) {
-  const a = articleMeta[params.slug]
+  const slug = params.slug
+  const mdPath = path.join(process.cwd(), 'articles', `${slug}.md`)
+  let htmlContent = null
+  let meta = articleMeta[slug] || null
+
+  if (fs.existsSync(mdPath)) {
+    const raw = fs.readFileSync(mdPath, 'utf-8')
+    const { data, content } = matter(raw)
+    htmlContent = marked(content)
+    if (!meta) {
+      meta = {
+        title: data.title || slug,
+        description: data.description || '',
+        date: data.date || '',
+        tags: Array.isArray(data.tags) ? data.tags : [],
+      }
+    }
+  }
+
+  if (!meta) {
+    return { notFound: true }
+  }
+
   return {
     props: {
-      slug: params.slug,
-      title: a.title,
-      description: a.description,
-      date: a.date,
-      tags: a.tags,
+      slug,
+      title: meta.title,
+      description: meta.description,
+      date: meta.date,
+      tags: meta.tags,
+      htmlContent,
     }
   }
 }
 
-export default function ArticlePage({ slug, title, description, date, tags }) {
+export default function ArticlePage({ slug, title, description, date, tags, htmlContent }) {
   return (
     <>
       <Head>
@@ -148,7 +191,11 @@ export default function ArticlePage({ slug, title, description, date, tags }) {
           </div>
         </div>
 
-        <ArticleContent slug={slug} />
+        {htmlContent ? (
+          <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+        ) : (
+          <ArticleContent slug={slug} />
+        )}
 
         <div className="cta-block not-prose">
           <h3>Попробуйте NEMO VPN бесплатно</h3>

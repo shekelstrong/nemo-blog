@@ -258,7 +258,7 @@ export default function ArticlePage() {
 
           <p><strong>XHTTP:</strong> Новый стандарт для 2026. Полностью имитирует HTTP/2 трафик браузера, устойчив к активному зондированию. Требует более сложной настройки сервера и клиента.</p>
 
-          <h3>AmneziaWG</strong> — скрытый чемпион</h3>
+          <h3><strong>AmneziaWG</strong> — скрытый чемпион</h3>
 
           <p>AmneziaWG — это обфусцированная версия WireGuard, которая добавляет случайные задержки, меняет размеры пакетов и имитирует «шум» обычного трафика. Пользователи отмечают высокую стабильность даже в условиях агрессивного блокирования.</p>
 
@@ -303,19 +303,19 @@ export default function ArticlePage() {
 
           <p><strong>Для Xray-core:</strong></p>
 
-          <pre><code>{
+          <pre><code>{`{
   "fingerprint": "chrome",
   "tlsSettings": {
     "serverName": "example.com",
     "allowInsecure": false
   }
-}</code></pre>
+}`}</code></pre>
 
           <p>Используйте <code>fingerprint: chrome</code> или <code>firefox</code> — это лучше, чем отключение fingerprint полностью.</p>
 
           <p><strong>Для XHTTP:</strong></p>
 
-          <pre><code>{
+          <pre><code>{`{
   "protocol": "xhttp",
   "settings": {
     "path": "/xhttp",
@@ -324,7 +324,7 @@ export default function ArticlePage() {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
   }
-}</code></pre>
+}`}</code></pre>
 
           <h3>Ограничение нагрузки</h3>
 
