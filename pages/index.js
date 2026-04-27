@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-udalyonnogo-dostupa-rdp-teamviewer-anydesk-zachem-vpn-i-kak-zashchitit-podklyucheniya-v-2026',
+    title: 'VPN для удалённого доступа: RDP, TeamViewer, AnyDesk — зачем VPN и как защитить подключения в 2026',
+    description: 'Полный гайд по безопасному удалённому доступу в 2026 году. Протокол RDP, TeamViewer, AnyDesk, российские альтернативы (RuDesktop, Ассистент, PRO32 Connect, RMS), бесплатные инструменты (Chrome Remote Desktop, DWService, TightVNC). Почему RDP без VPN опасен, как VPN защищает подключения, настройка WireGuard, Tailscale, ZeroTier и NEMO VPN для безопасного удалённого доступа.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'RDP', 'TeamViewer', 'AnyDesk', 'удалённый доступ', 'безопасность', 'WireGuard', 'Tailscale', 'ZeroTier', 'NEMO VPN'],
+  },
+  {
+    slug: 'dns-utechki-kak-provayder-vidit-vashe-sayty-dazhe-s-vpn-i-kak-eto-ispravit-v-2026',
+    title: 'DNS-утечки: как провайдер видит ваши сайты даже с VPN, и как это исправить в 2026',
+    description: 'VPN шифрует трафик, но DNS-запросы могут идти мимо туннеля. Провайдер видит все сайты, которые вы посещаете. Разбираем, как проверить DNS-утечку, настроить DNS over HTTPS (DoH) и DNS over TLS (DoT), чем они отличаются и как NEMO VPN защищает от утечек автоматически.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'DNS-утечки', 'DoH', 'DoT', 'безопасность', 'приватность', 'провайдер', 'РКН', 'NEMO VPN', 'Cloudflare', 'Google DNS'],
+  },
+  {
     slug: 'vpn-i-deti-kak-zashchit-rebyonka-v-internete-roditelskiy-kontrol-filtratsiya-i-bezopasnost-v-2026',
     title: 'VPN и дети: как защитить ребёнка в интернете — родительский контроль, фильтрация и безопасность в 2026',
     description: 'Полный гайд по цифровой безопасности детей в 2026 году. Почему родительский контроль необходим, как дети обходят блокировки через VPN, опасности бесплатных VPN для детей, лучшие инструменты родительского контроля (Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link), DNS-фильтрация, split tunneling для семьи и чек-лист для родителей из 10 шагов.',
