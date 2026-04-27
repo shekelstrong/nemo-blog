@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-deti-kak-zashchit-rebyonka-v-internete-roditelskiy-kontrol-filtratsiya-i-bezopasnost-v-2026',
+    title: 'VPN и дети: как защитить ребёнка в интернете — родительский контроль, фильтрация и безопасность в 2026',
+    description: 'Полный гайд по цифровой безопасности детей в 2026 году. Почему родительский контроль необходим, как дети обходят блокировки через VPN, опасности бесплатных VPN для детей, лучшие инструменты родительского контроля (Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link), DNS-фильтрация, split tunneling для семьи и чек-лист для родителей из 10 шагов.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'родительский контроль', 'безопасность детей', 'цифровая гигиена', 'фильтрация контента', 'Qustodio', 'Norton Family', 'Kaspersky Safe Kids', 'Google Family Link', 'NEMO VPN'],
+  },
+  {
     slug: 'vpn-dlya-torrentov-i-p2p-kak-skachivat-bezopasno-i-anonimno-v-2026',
     title: 'VPN для торрентов и P2P: как скачивать безопасно и анонимно в 2026',
     description: 'Полный гайд по безопасному скачиванию через торрент с VPN в 2026 году. Почему провайдер видит всё, как работает DPI, Kill Switch, no-log политика, лучшие VPN для P2P и риски в России.',
