@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'shadowsocks-i-socks5-chto-eto-i-kak-nastroit-v-2026',
+    title: 'Shadowsocks и SOCKS5: что это и как настроить в 2026',
+    description: 'Полный гайд по Shadowsocks и SOCKS5 в 2026 году. Что такое Shadowsocks, как работает SOCKS5 прокси, отличие от VPN, настройка на VPS, Outline Client, клиенты для Android/Windows, плюсы и минусы, сравнение с VLESS Reality и WireGuard.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'Shadowsocks', 'SOCKS5', 'прокси', 'VPN', 'обход блокировок', 'настройка', 'Outline', '2026'],
+  },
+  {
     slug: 'vpn-na-android-polnoe-rukovodstvo-po-nastroyke-xray-i-v2ray-v-2026',
     title: 'VPN на Android: полное руководство по настройке Xray и v2Ray в 2026',
     description: 'Полное руководство по настройке VPN на Android с Xray и v2Ray в 2026 году. Лучшие приложения (v2rayNG, v2RayTun, Sing-box, Hysteria2), установка, импорт конфигурации, настройка протоколов (VLESS, VMess, Trojan), VLESS Reality, оптимизация батареи, Kill Switch, автозапуск, разрешения Android 12+ и troubleshooting.',
