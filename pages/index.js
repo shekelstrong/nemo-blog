@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'split-tunneling-vpn-kak-razdelit-trafik-rossiyskie-sayty-pryamo-blokirovannye-cherez-vpn-v-2026',
+    title: 'Split Tunneling VPN: как разделить трафик — российские сайты напрямую, заблокированные через VPN в 2026',
+    description: 'Полный гайд по Split Tunneling VPN в России 2026: как направить российские сайты напрямую, а заблокированные через VPN. Настройка на Android (V2rayNG, Streisand, NekoBox), iOS (Streisand, v2Box), Windows (Xray-core, AmneziaVPN, NekoRay), Linux (AmneziaWG, ip route) и роутерах (OpenWrt, Passwall2). Include mode vs Exclude mode, маршрутизация по доменам, IP и приложениям. Безопасность: DNS-утечки, WebRTC, IPv6. NEMO VPN CTA — готовые конфиги с автоматической маршрутизацией.',
+    date: '27 апреля 2026',
+    tags: ['Split Tunneling', 'VPN', 'маршрутизация', 'Android', 'iOS', 'Windows', 'Linux', 'V2rayNG', 'Streisand', 'AmneziaWG', 'Xray-core', 'белые списки', 'обход блокировок', 'безопасность', '2026'],
+  },
+  {
+    slug: 'suverennyj-runet-kak-rossiya-stroit-svoj-internet-i-pochemu-vpn-poslednij-vyhod-v-2026',
+    title: 'Суверенный Рунет: как Россия строит свой интернет и почему VPN — последний выход в 2026',
+    description: 'Суверенный Рунет в 2026: от идеи 2014 года до реальности. ТСПУ на 100% узлов, централизованное управление, СОРМ vs ТСПУ, белые списки 57 000 адресов, ночные учения по отключению интернета. Почему VPN работает, goodbyedpi и zapret, DPI-блокировки на L3 уровне. Прогноз: Северная Корея или Китай? NEMO VPN с VLESS Reality — скрытие VPN-трафика от ТСПУ.',
+    date: '27 апреля 2026',
+    tags: ['суверенный Рунет', 'ТСПУ', 'DPI', 'СОРМ', 'блокировки', 'VPN', 'VLESS Reality', 'goodbyedpi', 'zapret', 'интернет в России', 'РКН', 'Мишустин', '2026'],
+  },
+  {
     slug: 'es-zapretil-kriptovalyutu-dlya-rossii-20-y-paket-sanktsiy-rubx-tsifrovoy-rubl-i-chto-eto-znachit-dlya-vpn-polzovateley-v-2026',
     title: 'ЕС запретил криптовалюту для России: 20-й пакет санкций, RUBx, цифровой рубль и что это значит для VPN-пользователей в 2026',
     description: 'ЕС ввёл 20-й пакет санкций против России: полный запрет крипто-провайдеров, децентрализованных платформ, RUBx стейблкоина и цифрового рубля CBDC. Chainalysis отследил $12+ млрд криптоактивов, Operation Atlantic замораживает транзакции в реальном времени. Как россиянам платить за VPN, когда биржи блокируют кошельки: Monero, CoinJoin, DEX, CryptoBot (TON) и Platega.',
