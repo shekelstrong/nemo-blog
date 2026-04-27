@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-na-linux-polnoe-rukovodstvo-po-nastroyke-v-2026-ubuntu-debian-fedora-arch',
+    title: 'VPN на Linux: полное руководство по настройке в 2026 (Ubuntu, Debian, Fedora, Arch)',
+    description: 'Полное руководство по настройке VPN на Linux в 2026 году. WireGuard, OpenVPN, VLESS/Xray, Sing-box, SoftEther — все методы для Ubuntu, Debian, Fedora и Arch Linux. Автозапуск, проверка утечек, сравнение протоколов.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'VPN', 'Linux', 'Ubuntu', 'Debian', 'Fedora', 'Arch', 'настройка', 'WireGuard', 'OpenVPN', 'VLESS'],
+  },
+  {
     slug: 'yandeks-vk-ozon-blokiruyut-vpn-chto-proiskhodit-i-kak-oboyti-v-2026',
     title: 'Яндекс, VK, Ozon блокируют VPN: что происходит и как обойти в 2026',
     description: '15 апреля 2026 года российские платформы начали блокировать VPN-пользователей. Яндекс, VK, Ozon, Wildberries и банки ограничивают функциональность при включённом VPN. Разбираем, как определяется VPN (IP, ASN, направление трафика, WebRTC), что такое белые списки, почему iPhone сложнее детектировать (Apple privacy), IT-проекты на паузе и как обойти блокировки с помощью split tunneling, selective VPN, residential IP и NEMO VPN с VLESS Reality.',
