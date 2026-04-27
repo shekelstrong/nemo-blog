@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'es-zapretil-kriptovalyutu-dlya-rossii-20-y-paket-sanktsiy-rubx-tsifrovoy-rubl-i-chto-eto-znachit-dlya-vpn-polzovateley-v-2026',
+    title: 'ЕС запретил криптовалюту для России: 20-й пакет санкций, RUBx, цифровой рубль и что это значит для VPN-пользователей в 2026',
+    description: 'ЕС ввёл 20-й пакет санкций против России: полный запрет крипто-провайдеров, децентрализованных платформ, RUBx стейблкоина и цифрового рубля CBDC. Chainalysis отследил $12+ млрд криптоактивов, Operation Atlantic замораживает транзакции в реальном времени. Как россиянам платить за VPN, когда биржи блокируют кошельки: Monero, CoinJoin, DEX, CryptoBot (TON) и Platega.',
+    date: '27 апреля 2026',
+    tags: ['санкции', 'криптовалюта', 'Chainalysis', 'VPN', 'RUBx', 'цифровой рубль', 'VASP', 'комплаенс', 'Monero', 'CBDC', '2026'],
+  },
+  {
+    slug: 'chto-proiskhodit-s-vpn-v-rossii-aprel-2026-tspu-belye-spiski-oplata-trafika-i-chto-rabotaet',
+    title: 'Что происходит с VPN в России: апрель 2026 — ТСПУ, белые списки, оплата трафика и что работает',
+    description: 'Апрель 2026 стал переломным месяцем для VPN в России. ТСПУ 2.0: DPI детектит WireGuard, AmneziaWG, Cloak, XRay. Белые списки: 57 000 адресов, 1730 предприятий. 15 ГБ бесплатно, далее 150 руб/ГБ. XRay VLESS перебои, МегаФон блокирует в выходные. Что работает: VLESS Reality + XHTTP, Hysteria2, AmneziaWG.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'ТСПУ', 'DPI', 'блокировки', 'VLESS Reality', 'XHTTP', 'Hysteria2', 'белые списки', 'NEMO VPN', '2026'],
+  },
+  {
     slug: 'vpn-dlya-udalyonnogo-dostupa-rdp-teamviewer-anydesk-zachem-vpn-i-kak-zashchitit-podklyucheniya-v-2026',
     title: 'VPN для удалённого доступа: RDP, TeamViewer, AnyDesk — зачем VPN и как защитить подключения в 2026',
     description: 'Полный гайд по безопасному удалённому доступу в 2026 году. Протокол RDP, TeamViewer, AnyDesk, российские альтернативы (RuDesktop, Ассистент, PRO32 Connect, RMS), бесплатные инструменты (Chrome Remote Desktop, DWService, TightVNC). Почему RDP без VPN опасен, как VPN защищает подключения, настройка WireGuard, Tailscale, ZeroTier и NEMO VPN для безопасного удалённого доступа.',
