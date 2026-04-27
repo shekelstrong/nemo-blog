@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'best-vpn-russia-2026',
+    title: 'Лучшие VPN-провайдеры для России в 2026: полное сравнение и рейтинг',
+    description: 'Подробный обзор лучших VPN-сервисов для России в 2026 году. Сравнение скорости, протоколов, цен и безопасности. NordVPN, ExpressVPN, Proton VPN, Surfshark, CyberGhost, IPVanish, PIA, Mullvad. VLESS Reality, residential IP, обход TSPU/DPI.',
+    date: '27 апреля 2026',
+    tags: ['обзоры', 'VPN', 'сравнение', 'Россия 2026', 'NordVPN', 'ExpressVPN', 'Proton VPN', 'Surfshark', 'VLESS Reality', 'обход блокировок'],
+  },
+  {
+    slug: 'vless-reality-polnoe-rukovodstvo-po-nastroyke-v-2026-server-name-sni-dest-fingerprint',
+    title: 'VLESS Reality: полное руководство по настройке в 2026 (Server Name, SNI, Dest, Fingerprint)',
+    description: 'VLESS Reality — современный протокол обхода DPI для Xray. Полное руководство по настройке: Server Name, Dest, SNI, Fingerprint (Chrome), Private Key, Short ID. JSON конфиг Xray, панель 3x-UI, как работает подмена сертификатов, чем отличается от WireGuard и AmneziaWG, NEMO VPN CTA.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'VLESS Reality', 'Xray', 'VPN', 'обход DPI', 'настройка', 'Server Name', 'SNI', 'Dest', 'Fingerprint', '2026'],
+  },
+  {
     slug: 'shadowsocks-i-socks5-chto-eto-i-kak-nastroit-v-2026',
     title: 'Shadowsocks и SOCKS5: что это и как настроить в 2026',
     description: 'Полный гайд по Shadowsocks и SOCKS5 в 2026 году. Что такое Shadowsocks, как работает SOCKS5 прокси, отличие от VPN, настройка на VPS, Outline Client, клиенты для Android/Windows, плюсы и минусы, сравнение с VLESS Reality и WireGuard.',
