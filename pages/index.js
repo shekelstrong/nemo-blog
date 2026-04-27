@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-torrentov-i-p2p-kak-skachivat-bezopasno-i-anonimno-v-2026',
+    title: 'VPN для торрентов и P2P: как скачивать безопасно и анонимно в 2026',
+    description: 'Полный гайд по безопасному скачиванию через торрент с VPN в 2026 году. Почему провайдер видит всё, как работает DPI, Kill Switch, no-log политика, лучшие VPN для P2P и риски в России.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'торренты', 'P2P', 'безопасность', 'анонимность', 'no-log', 'PIA', 'ExpressVPN', 'ProtonVPN', 'NordVPN', 'РКН', 'штрафы', 'NEMO VPN'],
+  },
+  {
+    slug: 'vpn-dlya-puteshestvennikov-dostup-k-rossiyskim-servisam-za-granitsey-i-zashhita-v-roaminge-v-2026',
+    title: 'VPN для путешественников: доступ к российским сервисам за границей и защита в роуминге в 2026',
+    description: 'За границей не работают Госуслуги, банки и российские стриминги. С 15 апреля национальные сервисы блокируют VPN-пользователей — двойная ловушка для путешественников. Туристические eSIM как решение, split tunneling, выбор VPN для путешествия и чек-лист цифровой безопасности в отелях и аэропортах.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'путешествия', 'роуминг', 'eSIM', 'защита данных', 'Госуслуги', 'банки', 'стриминги', 'безопасность', 'NEMO VPN'],
+  },
+  {
     slug: 'kak-sekonomit-na-podpiskah-s-vpn-youtube-premium-spotify-i-drugie-servisy-v-2026',
     title: 'Как сэкономить на подписках с VPN: YouTube Premium, Spotify и другие сервисы в 2026',
     description: 'YouTube Premium — $13.99/мес в США, но всего $0.94 в Индии. Spotify — $10.99 vs $1.50 в Турции. Региональное ценообразование позволяет сэкономить сотни долларов в год. Полный гайд: как оформить подписки через VPN, способы оплаты (зарубежная карта, PayPal, gift cards, криптовалюта), риски и альтернативы вроде GamsGo. Экономия до $270/год на YouTube Premium и Spotify.',
