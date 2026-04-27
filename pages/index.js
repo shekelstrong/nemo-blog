@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-na-iphone-i-ios-polnoe-rukovodstvo-po-nastroyke-v-2026-streisand-v2box-vless',
+    title: 'VPN на iPhone и iOS: полное руководство по настройке в 2026 (Streisand, v2Box, VLESS)',
+    description: 'Полное руководство по настройке VPN на iPhone и iOS в 2026 году. Apple удалила Streisand, V2Box, v2RayTun, Happ из российского App Store. Что делать если приложение удалено, лучшие VPN-приложения (NordVPN, ExpressVPN, ProtonVPN), Streisand и v2Box настройка VLESS Reality, Apple Network Extension, оптимизация батареи, Kill Switch и NEMO VPN CTA.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'VPN', 'iPhone', 'iOS', 'Streisand', 'v2Box', 'VLESS Reality', 'Apple Network Extension', 'настройка', 'обход блокировок', '2026'],
+  },
+  {
+    slug: 'vpn-rasshireniya-dlya-brauzera-luchshie-dlya-chrome-i-firefox-v-2026',
+    title: 'VPN-расширения для браузера: лучшие для Chrome и Firefox в 2026',
+    description: 'Полный обзор VPN-расширений для браузеров в 2026 году. Чем отличается расширение от VPN-приложения, лучшие варианты для Chrome (NordVPN, ExpressVPN, Planet VPN, uVPN, ВПН РАБОЧИЙ 2026) и Firefox (NordVPN, ExpressVPN, Planet VPN, Hotspot Shield, Proton VPN), Opera VPN, Brave Firewall, бесплатные vs платные решения, безопасность, red flags, когда достаточно расширения, а когда нужен полноценный VPN-клиент и NEMO VPN CTA.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'расширения', 'Chrome', 'Firefox', 'браузерный VPN', 'NordVPN', 'ExpressVPN', 'Planet VPN', 'Opera VPN', 'Brave Firewall', 'безопасность'],
+  },
+  {
     slug: 'kak-oplatit-vpn-kartoy-mir-i-drugimi-rossiyskimi-sposobami-v-2026',
     title: 'Как оплатить VPN картой МИР и другими российскими способами в 2026',
     description: 'Полный гайд по оплате VPN картой МИР, CryptoBot, Platega, ЮMoney, криптовалютой и другими способами из России. Почему иностранные карты не работают, как безопасно оплатить VPN без Visa/Mastercard, сравнение способов, защита от мошенничества и NEMO VPN с оплатой в рублях.',
