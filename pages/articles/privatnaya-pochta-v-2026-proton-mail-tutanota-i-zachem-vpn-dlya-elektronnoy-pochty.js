@@ -382,7 +382,7 @@ Date: Mon, 27 Apr 2026 22:00:00 +0000
 
         <pre><code>Received: from vpn-server.nemo-vpn.com (...)
   by protonmail.com with ESMTPS
-  for <bob@tutanota.com></code></pre>
+  for {'<bob@tutanota.com>'}</code></pre>
 
         <p>Вместо вашего реального IP-адреса в заголовке будет IP VPN-сервера. Это затрудняет отслеживание местоположения и идентификацию.</p>
 
