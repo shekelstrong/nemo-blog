@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-na-windows-11-polnoe-rukovodstvo-po-nastroyke-v-2026',
+    title: 'VPN на Windows 11: полное руководство по настройке в 2026',
+    description: 'Полное руководство по настройке VPN на Windows 11 в 2026 году. Встроенный VPN, настройка через проводник, протоколы PPTP/L2TP/SSTP/IKEv2, WireGuard, OpenVPN, VLESS/Xray, автозапуск, проверка утечек и troubleshooting.',
+    date: '27 апреля 2026',
+    tags: ['инструкции', 'VPN', 'Windows 11', 'настройка', 'WireGuard', 'OpenVPN', 'VLESS', 'руководство'],
+  },
+  {
+    slug: 'vpn-dlya-igr-kak-snizit-ping-i-ubrat-lagi-v-2026-cs2-dota-2-valorant',
+    title: 'VPN для игр: как снизить пинг и убрать лаги в 2026 (CS2, Dota 2, Valorant)',
+    description: 'VPN для игр в 2026: как снизить пинг и убрать лаги в CS2, Dota 2 и Valorant. Почему VPN может УМЕНЬШАТЬ пинг, а не увеличивать его. ISP throttle, плохая маршрутизация, WireGuard vs OpenVPN, лучшие VPN для гейминга, split tunneling, тестирование серверов. Riot Games и Valve не банят за VPN.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'игры', 'пинг', 'лаги', 'CS2', 'Dota 2', 'Valorant', 'WireGuard', 'гейминг', '2026'],
+  },
+  {
     slug: 'vpn-dlya-umnogo-doma-kak-zashchitit-kamery-kolonki-i-iot-ustroystva-v-2026',
     title: 'VPN для умного дома: как защитить камеры, колонки и IoT-устройства в 2026',
     description: 'Умный дом без защиты — лёгкая мишень для хакеров. Mirai botnet, Shodan, взлом камер через дефолтные пароли, прослушивание через колонки. Как VPN на роутере защищает все IoT-устройства, изолированные VLAN, RTSP через VPN, лучшие роутеры и практический чек-лист из 10 шагов.',
