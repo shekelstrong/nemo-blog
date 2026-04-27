@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-umnogo-doma-kak-zashchitit-kamery-kolonki-i-iot-ustroystva-v-2026',
+    title: 'VPN для умного дома: как защитить камеры, колонки и IoT-устройства в 2026',
+    description: 'Умный дом без защиты — лёгкая мишень для хакеров. Mirai botnet, Shodan, взлом камер через дефолтные пароли, прослушивание через колонки. Как VPN на роутере защищает все IoT-устройства, изолированные VLAN, RTSP через VPN, лучшие роутеры и практический чек-лист из 10 шагов.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'умный дом', 'IoT', 'безопасность', 'камеры', 'колонки', 'Mirai botnet', 'Shodan', 'защита сети', 'VLESS Reality'],
+  },
+  {
     slug: 'moshenniki-pod-vidom-vpn-kak-krazh-dannyh-vyrosla-na-38-v-2026-godu',
     title: 'Мошенники под видом VPN: как кража данных выросла на 38% в 2026 году',
     description: 'Число краж данных через VPN выросло на 38% в 2026 году. Злоумышленники используют интерес к VPN на фоне блокировок мессенджеров. Как работают мошенники с бесплатными VPN, фейковые приложения, embedded malware, схемы мошенничества. Красные флаги, как проверить VPN перед установкой, безопасные VPN с аудитами (NordVPN, ExpressVPN, Proton VPN), VPN vs прокси, практический чек-лист и NEMO VPN CTA.',
