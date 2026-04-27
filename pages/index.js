@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-sotsialnyh-setey-instagram-twitter-facebook-dostup-rossiya-2026',
+    title: 'VPN для социальных сетей: как получить доступ к Instagram, X (Twitter) и Facebook из России в 2026',
+    description: 'Instagram и Facebook заблокированы в России с марта 2022. X (Twitter) замедлен и работает с перебоями. Полный гайд по доступу к заблокированным соцсетям через VPN, обход детекции платформ (IP, ASN, residential IP), сравнение VPN и прокси, лучшие сервисы для соцсетей и NEMO VPN CTA.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'соцсети', 'Instagram', 'Twitter', 'Facebook', 'блокировки', 'Meta', 'TikTok', 'LinkedIn', 'Threads', 'доступ к соцсетям', 'NEMO VPN'],
+  },
+  {
+    slug: 'publicnyj-wifi-opasnost-i-vpn-zashhita-2026',
+    title: 'Публичный Wi-Fi: почему ваши данные в опасности и как VPN спасёт в 2026',
+    description: 'Публичный Wi-Fi в кафе, аэропортах и отелях — это прямая угроза вашим данным. Разбираем 5 типов атак, почему владелец сети ЗАКОННО видит ваш трафик, как VPN создаёт защищённый туннель и 10 правил безопасности.',
+    date: '27 апреля 2026',
+    tags: ['VPN', 'публичный Wi-Fi', 'безопасность', 'MITM', 'evil twin', 'шифрование', 'приватность', 'киберпреступность', 'eSIM', '4G'],
+  },
+  {
     slug: 'vpn-na-iphone-i-ios-polnoe-rukovodstvo-po-nastroyke-v-2026-streisand-v2box-vless',
     title: 'VPN на iPhone и iOS: полное руководство по настройке в 2026 (Streisand, v2Box, VLESS)',
     description: 'Полное руководство по настройке VPN на iPhone и iOS в 2026 году. Apple удалила Streisand, V2Box, v2RayTun, Happ из российского App Store. Что делать если приложение удалено, лучшие VPN-приложения (NordVPN, ExpressVPN, ProtonVPN), Streisand и v2Box настройка VLESS Reality, Apple Network Extension, оптимизация батареи, Kill Switch и NEMO VPN CTA.',
