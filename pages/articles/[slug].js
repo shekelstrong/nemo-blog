@@ -133,7 +133,7 @@ export async function getStaticProps({ params }) {
       meta = {
         title: data.title || slug,
         description: data.description || '',
-        date: data.date || '',
+        date: (data.date instanceof Date ? data.date.toISOString().slice(0,10) : String(data.date || '')),
         tags: Array.isArray(data.tags) ? data.tags : [],
       }
     }
@@ -148,7 +148,7 @@ export async function getStaticProps({ params }) {
       slug,
       title: meta.title,
       description: meta.description,
-      date: meta.date,
+      date: (meta.date instanceof Date ? meta.date.toISOString().slice(0,10) : String(meta.date)),
       tags: meta.tags,
       htmlContent,
     }
