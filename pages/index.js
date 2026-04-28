@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-iptv-kak-smotret-smart-tv-cherez-vpn-obhod-geoblokirovok-i-problemy-v-2026',
+    title: 'VPN и IPTV: как смотреть Smart TV через VPN, обход геоблокировок и проблемы в 2026',
+    description: 'Полный гайд по настройке VPN для Smart TV и IPTV в 2026 году. Как обходить геоблокировки Netflix, Disney+, смотреть 4K контент без буферизации. NordVPN, ExpressVPN, Surfshark — лучшие VPN для стриминга. Smart DNS, мобильный стриминг, Samsung Tizen, LG webOS, Android TV, VLESS Reality.',
+    date: '28 апреля 2026',
+    tags: ['VPN', 'Smart TV', 'IPTV', 'стриминг', 'Netflix', 'Disney+', '4K', 'геоблокировки', 'NordVPN', 'ExpressVPN', 'Surfshark', 'Smart DNS', '2026'],
+  },
+  {
     slug: 'zakonen-li-vpn-v-rossii-v-2026-shtrafy-otvetstvennost-i-chto-realno-grozit-polzovatelyam',
     title: 'Законен ли VPN в России в 2026: штрафы, ответственность и что реально грозит пользователям',
     description: 'Подробный разбор законодательства об использовании VPN в России в 2026 году. Использование VPN НЕ запрещено законодательно, но есть нюансы. Разбираем ФЗ-281, уголовную и административную ответственность, блокировку VPN-сервисов, обязательные ограничения для сервисов и платформ. Что грозит пользователям и что не грозит.',
