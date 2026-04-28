@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-dlya-igr-na-windows-snizhenie-ping-obkhod-regionalnyh-blokirovok-i-luchshie-nastroyki-v-2026',
+    title: 'VPN для игр на Windows: снижение пинга, обход региональных блокировок и лучшие настройки в 2026',
+    description: 'Полный гайд по VPN для гейминга на Windows в 2026. Как снизить пинг, обойти региональные блокировки в Fortnite, CS2, Valorant. Настройка WireGuard, OpenVPN, Xray, Kill Switch, split tunneling. Сравнение NordVPN, ExpressVPN, PIA.',
+    date: '28 апреля 2026',
+    tags: ['VPN', 'гейминг', 'Windows', 'пинг', 'Fortnite', 'CS2', 'Valorant', 'NordVPN', 'ExpressVPN', 'PIA', 'WireGuard', 'Kill Switch', 'split tunneling', '2026'],
+  },
+  {
+    slug: 'vpn-smart-home-iot-security',
+    title: 'VPN и умный дом: защита IoT-устройств, камер, умных лампочек и умной техники в 2026',
+    description: 'Узнайте, как VPN защищает умный дом от взлома. Пошаговая инструкция по настройке VPN на роутере, VLAN для IoT и безопасности умных устройств.',
+    date: '28 апреля 2026',
+    tags: ['VPN', 'Smart Home', 'IoT', 'Безопасность', 'Умный дом'],
+  },
+  {
     slug: 'vpn-i-iptv-kak-smotret-smart-tv-cherez-vpn-obhod-geoblokirovok-i-problemy-v-2026',
     title: 'VPN и IPTV: как смотреть Smart TV через VPN, обход геоблокировок и проблемы в 2026',
     description: 'Полный гайд по настройке VPN для Smart TV и IPTV в 2026 году. Как обходить геоблокировки Netflix, Disney+, смотреть 4K контент без буферизации. NordVPN, ExpressVPN, Surfshark — лучшие VPN для стриминга. Smart DNS, мобильный стриминг, Samsung Tizen, LG webOS, Android TV, VLESS Reality.',
