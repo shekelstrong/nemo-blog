@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-tyomnyj-internet-mify-realnost-i-zachem-vpn-obychnomu-polzovatelyu-v-2026',
+    title: 'VPN и тёмный интернет: мифы, реальность и зачем VPN обычному пользователю в 2026',
+    description: 'Разбираем популярные мифы о VPN и тёмном интернете. VPN ≠ Tor — разные инструменты для разных задач. Почему VPN не даёт доступ к .onion, не делает вас анонимным, но решает 99% задач обычного пользователя. Tor Browser, риски тёмного интернета и зачем комбинировать VPN + Tor.',
+    date: '28 апреля 2026',
+    tags: ['VPN', 'Dark Web', 'Tor', '.onion', 'анонимность', 'VPN мифы', 'Tor Browser', 'бесплатный VPN', 'безопасность интернета', '2026'],
+  },
+  {
     slug: 'privatnaya-pochta-v-2026-proton-mail-tutanota-i-zachem-vpn-dlya-elektronnoy-pochty',
     title: 'Приватная почта в 2026: Proton Mail, Tutanota и зачем VPN для электронной почты',
     description: 'Почему Gmail, Mail.ru и Яндекс.Почта не приватны. Сравнение Proton Mail, Tutanota и Mailfence с E2E-шифрованием. Как VPN защищает от утечек metadata и обходит блокировки Proton в России.',
