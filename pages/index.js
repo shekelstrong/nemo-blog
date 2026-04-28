@@ -4,6 +4,20 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-dvuhfaktornaya-autentifikaciya-kak-zashchitit-akkaut-i-krazhu-paroley-v-2026',
+    title: 'VPN и двухфакторная аутентификация: как защитить аккаунт и кражу паролей в 2026',
+    description: 'Полный гайд по 2FA для VPN в 2026 году. Защитите свой VPN-аккаунт от кражи паролей с двухфакторной аутентификацией. TOTP vs SMS vs аппаратные ключи, настройка 2FA на VPN Unlimited, российские приложения для 2FA (Avanpost, Blitz Key, 5.1) и NEMO VPN CTA.',
+    date: '28 апреля 2026',
+    tags: ['2FA', 'двухфакторная аутентификация', 'VPN безопасность', 'кража паролей', 'TOTP', 'Google Authenticator', 'VPN Unlimited', 'NordVPN', 'Avanpost', 'Blitz Key', '5.1', 'VPN 2026'],
+  },
+  {
+    slug: 'vpn-i-5g-nuzhen-li-vpn-dlya-5g-interneta-v-2026',
+    title: 'VPN и 5G: нужен ли VPN для 5G-интернета в 2026',
+    description: 'Подробный разбор нужен ли VPN для 5G-интернета в 2026 году. Сравнение 5G vs 4G, влияние VPN на скорость и батарею, лучшие протоколы для мобильного интернета (WireGuard, IKEv2, VLESS Reality), gaming на 5G + VPN, стриминг в 4K, прогноз 6G. Скорость до 10 Гбит/с, latency <10ms, покрытие 5G в России 2026.',
+    date: '28 апреля 2026',
+    tags: ['VPN', '5G', 'мобильный интернет', 'WireGuard', 'IKEv2', 'VLESS Reality', 'Hysteria2', 'гейминг', 'стриминг', '4K', '2026', 'скорость', 'battery', 'latency'],
+  },
+  {
     slug: 'vpn-dlya-igr-na-windows-snizhenie-ping-obkhod-regionalnyh-blokirovok-i-luchshie-nastroyki-v-2026',
     title: 'VPN для игр на Windows: снижение пинга, обход региональных блокировок и лучшие настройки в 2026',
     description: 'Полный гайд по VPN для гейминга на Windows в 2026. Как снизить пинг, обойти региональные блокировки в Fortnite, CS2, Valorant. Настройка WireGuard, OpenVPN, Xray, Kill Switch, split tunneling. Сравнение NordVPN, ExpressVPN, PIA.',
