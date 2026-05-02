@@ -63,7 +63,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`}
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "articleSection": "VPN",
           "keywords": "VPN законен, штрафы за VPN, ФЗ-281, ответственность пользователей VPN, блокировка VPN 2026, Минцифры, Apple App Store, белые списки"
