@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
           <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2.5 no-underline group">
               <div className="w-8 h-8 rounded-lg bg-gradient-brand flex items-center justify-center">
-                <img src={siteConfig.logo} alt="" width={20} height={20} className="rounded opacity-90" />
+                <img src={siteConfig.logo} alt="NEMO VPN" width={20} height={20} className="rounded opacity-90" />
               </div>
               <span className="font-semibold text-sm tracking-tight" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
                 NEMO <span className="text-gradient-brand">Blog</span>
@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }) {
               <div>
                 <div className="flex items-center gap-2.5 mb-3">
                   <div className="w-8 h-8 rounded-lg bg-gradient-brand flex items-center justify-center">
-                    <img src={siteConfig.logo} alt="" width={20} height={20} className="rounded opacity-90" />
+                    <img src={siteConfig.logo} alt="NEMO VPN" width={20} height={20} className="rounded opacity-90" />
                   </div>
                   <span className="font-semibold text-sm tracking-tight" style={{fontFamily: "'Space Grotesk', sans-serif", color: 'hsl(var(--foreground))'}}>
                     NEMO VPN
