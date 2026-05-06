@@ -7,6 +7,14 @@ export default function About() {
       <Head>
         <title>О сервисе — NEMO VPN</title>
         <meta name="description" content="NEMO VPN — VPN-сервис на VLESS Reality с оплатой в рублях. Trial 24ч, живая поддержка." />
+        <meta property="og:title" content="О сервисе — NEMO VPN" />
+        <meta property="og:description" content="NEMO VPN — VPN-сервис на VLESS Reality с оплатой в рублях. Trial 24ч, живая поддержка." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/about`} />
+        <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
+        <meta property="og:site_name" content="NEMO VPN" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/about`} />
       </Head>
 
       <div className="max-w-2xl mx-auto about-page">
