@@ -205,6 +205,32 @@ export default function ArticlePage({ slug, title, description, date, tags, html
           <ArticleContent slug={slug} />
         )}
 
+        <div className="related-articles not-prose">
+          <h3>Читайте также</h3>
+          <div className="related-grid">
+            <a href="/articles/vpn-posle-1-maya-2026-polnoe-rukovodstvo" className="related-card">
+              <span className="related-tag">🔥 Горячее</span>
+              <span className="related-title">VPN после 1 мая 2026: полное руководство</span>
+            </a>
+            <a href="/articles/vless-reality-polnoe-rukovodstvo-po-nastroyke-v-2026-server-name-sni-dest-fingerprint" className="related-card">
+              <span className="related-tag">📖 Гайд</span>
+              <span className="related-title">VLESS Reality: полное руководство по настройке</span>
+            </a>
+            <a href="/articles/kak-nastroit-vpn-na-android-i-iphone-v-2026" className="related-card">
+              <span className="related-tag">📱 Настройка</span>
+              <span className="related-title">Как настроить VPN на Android и iPhone</span>
+            </a>
+            <a href="/articles/kill-switch-i-dns-leak-pochemu-vash-vpn-mozhet-vas-podvesti-v-2026" className="related-card">
+              <span className="related-tag">🔒 Безопасность</span>
+              <span className="related-title">Kill Switch и DNS Leak: почему VPN может подвести</span>
+            </a>
+            <a href="/articles/shtrafy-za-vpn-v-rossii-v-2026-mify-realnost-i-chto-realno-grozit-polzovatelyam" className="related-card">
+              <span className="related-tag">⚖️ Закон</span>
+              <span className="related-title">Штрафы за VPN: мифы и реальность</span>
+            </a>
+          </div>
+        </div>
+
         <div className="cta-block not-prose">
           <h3>Попробуйте NEMO VPN бесплатно</h3>
           <p>24 часа. VLESS Reality, оплата МИР, живая поддержка.</p>
