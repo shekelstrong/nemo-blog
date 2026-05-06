@@ -529,6 +529,17 @@ export default function Index() {
       <Head>
         <title>{siteConfig.title} — Блог о VPN и цифровой безопасности</title>
         <meta name="description" content={siteConfig.description} />
+        <meta property="og:title" content="NEMO VPN — Блог о VPN и цифровой безопасности" />
+        <meta property="og:description" content={siteConfig.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={siteConfig.siteUrl} />
+        <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
+        <meta property="og:site_name" content="NEMO VPN" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="NEMO VPN — Блог о VPN и цифровой безопасности" />
+        <meta name="twitter:description" content={siteConfig.description} />
+        <meta name="twitter:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
+        <link rel="canonical" href={siteConfig.siteUrl} />
       </Head>
 
       <div className="max-w-2xl mx-auto">
