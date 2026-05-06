@@ -231,3 +231,50 @@
   @apply mb-2 leading-7;
   color: hsl(var(--muted-foreground));
 }
+
+/* Related Articles */
+.related-articles {
+  margin: 3rem 0 1.5rem;
+  padding: 1.5rem;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 1rem;
+}
+.related-articles h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: hsl(var(--foreground));
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+.related-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--background));
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.related-card:hover {
+  border-color: hsl(var(--primary));
+  background: hsl(var(--primary) / 0.05);
+  transform: translateY(-1px);
+}
+.related-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+}
+.related-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  line-height: 1.4;
+}
