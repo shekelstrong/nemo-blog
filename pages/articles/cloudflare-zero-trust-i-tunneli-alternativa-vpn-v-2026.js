@@ -23,6 +23,7 @@ export default function ArticlePage() {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:locale" content="ru_RU" />
         <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
         <meta property="og:site_name" content="NEMO VPN" />
