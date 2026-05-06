@@ -4,6 +4,6 @@ export const siteConfig = {
   siteUrl: "https://nemo-blog.vercel.app",
   telegram: "https://t.me/nemo_vpn_bot?start=6318513424",
   logo: "/logo.jpg",
-  yandexMetrikaId: "ADD_YOUR_ID",
+  yandexMetrikaId: "108706331",
   gaId: "G-GT1X2H6QY4",
 }
