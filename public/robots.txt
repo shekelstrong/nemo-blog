@@ -4,4 +4,5 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
+Sitemap: https://nemo-blog.vercel.app/sitemap-clean.xml
 Sitemap: https://nemo-blog.vercel.app/sitemap.xml
