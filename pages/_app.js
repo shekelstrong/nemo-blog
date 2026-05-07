@@ -20,6 +20,20 @@ export default function App({ Component, pageProps }) {
         <script dangerouslySetInnerHTML={{__html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${siteConfig.gaId}');`}} />
         <meta name="google-site-verification" content="VlUjOekvfzZ-dO7A7wOXb1nJYzwwxdyTqxYzxmHYHoY" />
         <meta name="yandex-verification" content="ff1e78e4049fa961" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="alternate" hrefLang="ru" href="https://nemo-blog.vercel.app" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": siteConfig.name,
+          "url": siteConfig.siteUrl,
+          "description": siteConfig.description,
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": `${siteConfig.siteUrl}/?q={search_term_string}`,
+            "query-input": "required name=search_term_string"
+          }
+        })}} />
       </Head>
 
       <div className="min-h-screen flex flex-col transition-colors">
