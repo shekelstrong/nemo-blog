@@ -24,12 +24,12 @@ export default function Article() {
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${article.slug}/`} />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.description} />
         <meta name="twitter:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:locale" content="ru_RU" />
         <meta property="article:published_time" content="2026-04-27" />
@@ -58,12 +58,12 @@ export default function Article() {
               "name": "${siteConfig.title}",
               "logo": {
                 "@type": "ImageObject",
-                "url": "${siteConfig.url}/logo.png"
+                "url": "${siteConfig.siteUrl}/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "${siteConfig.url}/articles/${article.slug}"
+              "@id": "${siteConfig.siteUrl}/articles/${article.slug}"
             }
           }`}
         </script>
