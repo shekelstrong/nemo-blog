@@ -1,5 +1,5 @@
-// Next.js page that serves sitemap.xml with proper headers
-// This avoids Vercel's content-disposition header on static files
+// API route: /api/sitemap → serves sitemap.xml
+// Rewritten from /sitemap.xml via next.config.js rewrites
 
 const SITEMAP = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -89,16 +89,9 @@ const SITEMAP = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
 </urlset>`;
 
-export const getServerSideProps = async ({ res }) => {
+export default function handler(req, res) {
   res.setHeader('Content-Type', 'application/xml');
   res.setHeader('Cache-Control', 'public, max-age=3600');
-  // Explicitly remove content-disposition which Vercel adds for static files
-  res.removeHeader('Content-Disposition');
-  res.write(SITEMAP);
-  res.end();
-  return { props: {} };
-};
-
-export default function Sitemap() {
-  return null;
+  res.setHeader('X-Robots-Tag', 'index, follow');
+  res.status(200).send(SITEMAP);
 }
