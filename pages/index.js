@@ -136,7 +136,7 @@ export default function Index() {
         </div>
 
         <div className="space-y-6">
-          {articles.map((article) => (
+          {[...articles].reverse().map((article) => (
             <Link
               key={article.slug}
               href={`/articles/${article.slug}`}
