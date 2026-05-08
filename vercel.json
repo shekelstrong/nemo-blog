@@ -6,6 +6,14 @@
         {
           "key": "Content-Type",
           "value": "text/xml; charset=utf-8"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=3600"
         }
       ]
     }
