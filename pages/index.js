@@ -107,6 +107,13 @@ const articles = [
     description: 'ИИ и машинное обучение помогают обходить DPI-блокировки в России в 2026. Генетические алгоритмы Geneva, ML-обфускация трафика, адаптивные VPN-протоколы и анализ цензуры.',
     date: '8 мая 2026',
     tags: ['ИИ', 'DPI', 'VPN', 'машинное обучение', 'Geneva', 'обфускация', 'блокировки', '2026'],
+  },
+  {
+    slug: 'vpn-dlya-mac-nastroyka-bezopasnost-i-luchshie-protokoly-2026',
+    title: 'VPN для Mac: настройка, безопасность и лучшие протоколы 2026',
+    description: 'Полное руководство по VPN на macOS в 2026: выбор протокола, настройка VLESS Reality и WireGuard, обход DPI на Mac, сравнение клиентов, безопасность и типичные ошибки.',
+    date: '9 мая 2026',
+    tags: ['VPN', 'macOS', 'Mac', 'VLESS Reality', 'WireGuard', 'DPI', 'безопасность', '2026'],
   }
 ]
 
