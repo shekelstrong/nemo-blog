@@ -114,4 +114,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://nemo-blog.vercel.app/articles/ipv6-i-vpn-pochemu-ipv6-leak-opasnee-ipv4-leak-2026</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
