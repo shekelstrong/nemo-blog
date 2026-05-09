@@ -114,6 +114,13 @@ const articles = [
     description: 'Полное руководство по VPN на macOS в 2026: выбор протокола, настройка VLESS Reality и WireGuard, обход DPI на Mac, сравнение клиентов, безопасность и типичные ошибки.',
     date: '9 мая 2026',
     tags: ['VPN', 'macOS', 'Mac', 'VLESS Reality', 'WireGuard', 'DPI', 'безопасность', '2026'],
+  },
+  {
+    slug: 'vpn-dlya-udalyonnoy-raboty-zoom-teams-slack-iz-rossii-2026',
+    title: 'VPN для удалённой работы: Zoom, Teams, Slack из России в 2026',
+    description: 'Как настроить VPN для удалённой работы из России в 2026: Zoom, Microsoft Teams, Slack, Google Workspace и другие сервисы, заблокированные или ограниченные. Протоколы, сплит-туннелинг, обход DPI и практические гайды.',
+    date: '9 мая 2026',
+    tags: ['VPN', 'удалённая работа', 'Zoom', 'Teams', 'Slack', 'DPI', 'сплит-туннелинг', '2026'],
   }
 ]
 
