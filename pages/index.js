@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-kriptovalyuta-kak-zashchitit-kozhi-i-tranzaktsii-v-2026',
+    title: 'VPN и криптовалюта: как защитить кошельки и транзакции в 2026',
+    description: 'Как VPN защищает криптовалютные кошельки и транзакции в 2026 году. Отслеживание блокчейна, деанонимация через IP, санкции против криптобирж, оплата VPN за криптовалюту и выбор приватных протоколов.',
+    date: '2026-05-11',
+    tags: ['VPN', 'криптовалюта', 'безопасность', 'блокчейн', 'Bitcoin', 'деанонимация', 'санкции', '2026'],
+  },
+  {
     slug: 'vpn-i-oblachnye-servisy-dropbox-google-drive-onedrive-2026',
     title: 'VPN и облачные сервисы: Dropbox, Google Drive, OneDrive в 2026',
     description: 'Как получить доступ к Dropbox, Google Drive и OneDrive из России в 2026 году. Блокировки, ограничения скорости, санкции и способы обхода через VPN. Сравнение облачных хранилищ и настройка VPN для работы с облаком.',
