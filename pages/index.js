@@ -4,6 +4,13 @@ import { siteConfig } from '../site.config'
 
 const articles = [
   {
+    slug: 'vpn-i-oblachnye-servisy-dropbox-google-drive-onedrive-2026',
+    title: 'VPN и облачные сервисы: Dropbox, Google Drive, OneDrive в 2026',
+    description: 'Как получить доступ к Dropbox, Google Drive и OneDrive из России в 2026 году. Блокировки, ограничения скорости, санкции и способы обхода через VPN. Сравнение облачных хранилищ и настройка VPN для работы с облаком.',
+    date: '2026-05-11',
+    tags: ['VPN', 'облачные сервисы', 'Dropbox', 'Google Drive', 'OneDrive', 'санкции', 'блокировки', '2026'],
+  },
+  {
     slug: 'ipv6-i-vpn-pochemu-ipv6-leak-opasnee-ipv4-leak-2026',
     title: 'IPv6 и VPN: почему IPv6-leak опаснее IPv4-leak в 2026',
     description: 'IPv6-leak раскрывает ваш реальный IP и местоположение даже через VPN. Разбираем, почему утечка IPv6 опаснее IPv4, как провайдеры и ТСПУ используют IPv6 для деанонимизации, и как защититься.',

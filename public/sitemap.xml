@@ -624,4 +624,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://nemo-blog.vercel.app/articles/vpn-i-oblachnye-servisy-dropbox-google-drive-onedrive-2026</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
