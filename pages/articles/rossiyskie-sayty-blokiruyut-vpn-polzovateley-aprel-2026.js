@@ -18,7 +18,7 @@ export default function ArticlePage() {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -31,7 +31,7 @@ export default function ArticlePage() {
         <meta property="article:tag" content="блокировки" />
         <meta property="article:tag" content="VPN" />
         <meta property="article:tag" content="банки" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
@@ -41,7 +41,7 @@ export default function ArticlePage() {
           "dateModified": date,
           "author": { "@type": "Organization", "name": "NEMO VPN" },
           "publisher": { "@type": "Organization", "name": "NEMO VPN", "logo": { "@type": "ImageObject", "url": `${siteConfig.siteUrl}/logo.jpg` } },
-          "mainEntityOfPage": { "@type": "WebPage", "@id": `${siteConfig.siteUrl}/articles/${slug}/` },
+          "mainEntityOfPage": { "@type": "WebPage", "@id": `${siteConfig.siteUrl}/articles/${slug}` },
           "keywords": ["VPN блокировки", "российские сайты", "банки блокируют VPN", "маркетплейсы VPN", "мессенджеры Россия", "VLESS Reality"],
           "articleSection": "VPN"
         }) }} />

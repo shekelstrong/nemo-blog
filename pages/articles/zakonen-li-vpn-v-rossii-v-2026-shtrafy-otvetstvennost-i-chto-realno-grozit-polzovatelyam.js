@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="VPN законен ли, штрафы за VPN, уголовная ответственность VPN, ФЗ-281 VPN, Минцифры VPN, блокировка VPN 2026, Apple App Store VPN, белые списки, VPN Россия 2026, ответственность пользователей VPN, NEMO VPN" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />

@@ -164,7 +164,7 @@ export default function ArticlePage({ slug, title, description, date, tags, html
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
@@ -173,7 +173,7 @@ export default function ArticlePage({ slug, title, description, date, tags, html
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",

@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="Multi-hop VPN, цепочки прокси, анонимность VPN 2026, каскадное шифрование, корреляционный анализ, Tor альтернатива, луковая маршрутизация, VLESS цепочки, обход DPI, защита приватности Россия" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/images/${slug}.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -66,7 +66,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "keywords": ["Multi-hop VPN", "цепочки прокси", "анонимность VPN", "каскадное шифрование", "Tor альтернатива", "VLESS цепочки", "корреляционный анализ трафика"],
           "articleSection": "VPN",

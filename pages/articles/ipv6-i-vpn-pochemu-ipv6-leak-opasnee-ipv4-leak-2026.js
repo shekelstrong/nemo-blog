@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="IPv6 leak VPN, утечка IPv6, IPv6-leak опаснее IPv4, VPN утечка IP地址, деанонимизация IPv6, защита приватности, DPI IPv6, ТСПУ IPv6, WebRTC leak, DNS leak IPv6, обход блокировок 2026" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/images/${slug}.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -69,7 +69,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "keywords": ["IPv6 leak VPN", "утечка IPv6", "VPN утечка IP", "деанонимизация IPv6", "DPI IPv6", "WebRTC leak", "защита приватности 2026"],
           "articleSection": "VPN",

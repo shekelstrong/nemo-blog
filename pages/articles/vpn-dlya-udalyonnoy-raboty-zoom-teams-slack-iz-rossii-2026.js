@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="VPN для удалённой работы, Zoom из России, Microsoft Teams VPN, Slack VPN, удалённая работа 2026, заблокированные сервисы Россия, VPN для бизнеса, сплит-туннелинг, обход DPI, VLESS Reality для работы, Google Workspace VPN, видеоконференции через VPN, блокировка Zoom Россия" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/images/${slug}.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -69,7 +69,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "keywords": ["VPN для удалённой работы", "Zoom из России", "Microsoft Teams VPN", "Slack VPN", "удалённая работа 2026", "сплит-туннелинг", "обход DPI", "VLESS Reality"],
           "articleSection": "VPN",

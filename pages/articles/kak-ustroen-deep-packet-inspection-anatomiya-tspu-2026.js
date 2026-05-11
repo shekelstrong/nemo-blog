@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="Deep Packet Inspection, DPI как работает, ТСПУ Россия, Technical Means of Threat Counteraction, JA3 хэш, TLS профайлинг, активное зондирование DPI, обход блокировок 2026, DPI фильтрация, Роскомнадзор DPI, цензура интернет Россия" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/images/${slug}.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -65,7 +65,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "keywords": ["Deep Packet Inspection", "DPI как работает", "ТСПУ Россия", "JA3 хэш", "TLS профайлинг", "активное зондирование", "обход блокировок 2026", "Роскомнадзор"],
           "articleSection": "VPN",

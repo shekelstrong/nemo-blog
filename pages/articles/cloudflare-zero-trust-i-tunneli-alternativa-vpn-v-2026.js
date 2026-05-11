@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="Cloudflare Zero Trust, Cloudflare Tunnel, альтернатива VPN, ZTNA, SASE, Ngrok, Tailscale, Pinggy, Localtunnel, Frp, Boring Proxy, cloudflared, IoT туннели, self-hosted сервисы, гейминг туннели, Россия 2026, обход блокировок, защита сервера" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -64,7 +64,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "articleSection": "безопасность",
           "keywords": "Cloudflare Zero Trust, Cloudflare Tunnel, VPN, ZTNA, Ngrok, Tailscale, Pinggy, IoT, self-hosted",

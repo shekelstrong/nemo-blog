@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="VPN для умного дома, IoT безопасность, защита камер, защита колонок, Mirai botnet, Shodan, VPN на роутере, VLAN изоляция, RTSP через VPN, умные колонки безопасность, Alexa, Google Home, Алиса, лучшие роутеры для IoT, NEMO VPN" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/logo.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -66,7 +66,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "articleSection": "VPN",
           "keywords": "VPN для умного дома, IoT безопасность, защита камер, Mirai botnet, Shodan, VPN на роутере, VLAN изоляция"

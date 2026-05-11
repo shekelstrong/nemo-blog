@@ -17,7 +17,7 @@ export default function ArticlePage() {
         <meta name="keywords" content="VPN и ИИ, искусственный интеллект bypass DPI, машинное обучение обход блокировок, Geneva генетические алгоритмы, ML обфускация трафика, адаптивные VPN протоколы, нейросетевой анализ цензуры, DPI Россия 2026, обход блокировок ИИ, deep learning VPN" />
         <meta name="author" content="NEMO VPN" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
-        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <link rel="canonical" href={`${siteConfig.siteUrl}/articles/${slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={title} />
@@ -25,7 +25,7 @@ export default function ArticlePage() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={`${siteConfig.siteUrl}/images/${slug}.jpg`} />
         <meta property="og:locale" content="ru_RU" />
-        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}/`} />
+        <meta property="og:url" content={`${siteConfig.siteUrl}/articles/${slug}`} />
         <meta property="og:site_name" content="NEMO VPN" />
         <meta property="article:published_time" content={date} />
         <meta property="article:modified_time" content={date} />
@@ -69,7 +69,7 @@ export default function ArticlePage() {
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `${siteConfig.siteUrl}/articles/${slug}/`
+            "@id": `${siteConfig.siteUrl}/articles/${slug}`
           },
           "keywords": ["VPN и ИИ", "искусственный интеллект обход DPI", "машинное обучение блокировки", "Geneva генетические алгоритмы", "ML обфускация", "адаптивные VPN", "DPI Россия 2026"],
           "articleSection": "VPN",
