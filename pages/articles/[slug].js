@@ -129,9 +129,10 @@ export async function getStaticProps({ params }) {
   if (fs.existsSync(mdPath)) {
     const raw = fs.readFileSync(mdPath, 'utf-8')
     const { data, content } = matter(raw)
-    // Strip first H1 from markdown — it duplicates the page title
-    const contentNoH1 = content.replace(/^#\s+.+\n*/, '', 1)
-    htmlContent = marked(contentNoH1)
+    // Strip first H1 from rendered HTML — page already shows title as H1
+    let rendered = marked(content)
+    rendered = rendered.replace(/<h1[^>]*>[\s\S]*?<\/h1>/, '', 1)
+    htmlContent = rendered
     if (!meta) {
       meta = {
         title: data.title || slug,
