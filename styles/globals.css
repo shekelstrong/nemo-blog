@@ -108,7 +108,7 @@
 }
 
 .prose p {
-  @apply mb-5 leading-7 text-lg;
+  @apply mb-5 leading-7 text-base md:text-lg;
   color: hsl(var(--foreground)/0.85);
 }
 
@@ -133,9 +133,12 @@
 
 .prose table {
   @apply w-full text-sm mt-4 mb-6;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .prose thead th {
-  @apply text-left py-2 pr-4 font-semibold border-b-2;
+  @apply text-left py-2 pr-4 font-semibold border-b-2 whitespace-nowrap;
   border-color: hsl(var(--border));
   color: hsl(var(--foreground));
 }
@@ -277,4 +280,17 @@
   font-weight: 500;
   color: hsl(var(--foreground));
   line-height: 1.4;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .prose h1 { font-size: 1.5rem !important; }
+  .prose h2 { font-size: 1.25rem !important; }
+  .prose h3 { font-size: 1.1rem !important; }
+  .prose ul, .prose ol { padding-left: 1.25rem !important; }
+  .prose pre { font-size: 0.75rem !important; padding: 0.75rem !important; }
+  .prose blockquote { margin: 1rem 0 !important; padding-left: 0.75rem !important; }
+  .related-grid { grid-template-columns: 1fr !important; }
+  .cta-block { padding: 1rem !important; }
+  .article-header h1 { font-size: 1.5rem !important; margin-top: 0.5rem !important; }
 }
