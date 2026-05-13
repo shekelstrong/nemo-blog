@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import matter from 'gray-matter'
 import { marked } from 'marked'
+
 import { siteConfig } from '../../site.config'
 
 const articleMeta = {
@@ -128,7 +129,9 @@ export async function getStaticProps({ params }) {
   if (fs.existsSync(mdPath)) {
     const raw = fs.readFileSync(mdPath, 'utf-8')
     const { data, content } = matter(raw)
-    htmlContent = marked(content)
+    // Strip first H1 from markdown — it duplicates the page title
+    const contentNoH1 = content.replace(/^#\s+.+\n*/, '', 1)
+    htmlContent = marked(contentNoH1)
     if (!meta) {
       meta = {
         title: data.title || slug,

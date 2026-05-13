@@ -132,20 +132,24 @@
 .prose a:hover { text-decoration: underline; }
 
 .prose table {
-  @apply w-full text-sm mt-4 mb-6;
+  @apply w-full text-sm mt-4 mb-6 border-collapse;
   display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 .prose thead th {
-  @apply text-left py-2 pr-4 font-semibold border-b-2 whitespace-nowrap;
+  @apply text-left py-2 px-3 font-semibold border-b-2;
   border-color: hsl(var(--border));
   color: hsl(var(--foreground));
+  background: hsl(var(--muted));
+  white-space: nowrap;
 }
 .prose tbody td {
-  @apply py-2 pr-4 border-b;
-  border-color: hsl(var(--border));
-  color: hsl(var(--muted-foreground));
+  @apply py-2 px-3;
+  border: 1px solid hsl(var(--border));
+}
+.prose tbody tr:nth-child(even) {
+  background: hsl(var(--muted)/0.5);
 }
 
 .prose blockquote {
