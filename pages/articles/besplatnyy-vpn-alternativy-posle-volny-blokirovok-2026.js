@@ -83,7 +83,7 @@ export default function ArticlePage() {
             <h1 className="text-3xl font-bold mb-4">{title}</h1>
             <p className="text-xl text-gray-600 mb-4">{description}</p>
             <div className="text-sm text-gray-500">
-              <time dateTime={date}>26 апреля 2026</time>
+              <time dateTime={date}>2026-04-26</time>
               <span className="mx-2">•</span>
               <span>{tags.join(', ')}</span>
             </div>

@@ -83,7 +83,7 @@ export default function ArticlePage() {
             <h1 className="text-3xl font-bold mb-4">{title}</h1>
             <p className="text-xl text-gray-600 mb-4">{description}</p>
             <div className="text-sm text-gray-500">
-              <time dateTime={date}>26 апреля 2026</time>
+              <time dateTime={date}>2026-04-26</time>
               <span className="mx-2">•</span>
               <span>{tags.join(', ')}</span>
             </div>
@@ -452,8 +452,8 @@ export default function ArticlePage() {
               <ul className="text-sm text-gray-600 space-y-2">
                 <li>VC.ru — KelVPN: децентрализованный VPN на блокчейне Ethereum (Сбер Технологии Беларусь)</li>
                 <li>Le VPN — почему «бесплатный VPN» в 2026 году может стоить вам всего</li>
-                <li>Mediazona (7 апреля 2026) — суды Москвы и СПб штрафуют провайдеров за обход ТСПУ</li>
-                <li>Президент поручил (23 апреля 2026) разработать механизм «белых списков»</li>
+                <li>Mediazona (2026-04-07) — суды Москвы и СПб штрафуют провайдеров за обход ТСПУ</li>
+                <li>Президент поручил (2026-04-23) разработать механизм «белых списков»</li>
                 <li>469 VPN заблокировано, DPI активно в апреле 2026</li>
                 <li>ФСБ мониторит IT-компании на VPN-трафик — риск потери налоговых льгот</li>
                 <li>Splinternet: Россия получила право изолировать свой интернет (март 2026)</li>

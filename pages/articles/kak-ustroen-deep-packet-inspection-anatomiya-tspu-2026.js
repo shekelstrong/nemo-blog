@@ -351,7 +351,7 @@ export default function ArticlePage() {
 
           <h3>Пределы трафика</h3>
 
-          <p>Введение лимита 15 ГБ на международный трафик с 1 мая 2026 (подробнее в <Link href="/articles/limit-15-gb-vpn-traffic-may-2026">нашей статье о лимите трафика</Link>) тесно связано с DPI: система учит международный трафик на уровне магистральных каналов, а DPI обеспечивает возможность дифференциации трафика по назначению.</p>
+          <p>Введение лимита 15 ГБ на международный трафик с 2026-05-01 (подробнее в <Link href="/articles/limit-15-gb-vpn-traffic-may-2026">нашей статье о лимите трафика</Link>) тесно связано с DPI: система учит международный трафик на уровне магистральных каналов, а DPI обеспечивает возможность дифференциации трафика по назначению.</p>
 
           <h2>Стратегии обхода DPI: что работает в 2026 году</h2>
 
@@ -445,7 +445,7 @@ export default function ArticlePage() {
               <p style={{fontSize:'14px',color:'#6b7280',marginTop:'8px'}}>Скрытые риски бесплатных сервисов и почему платный VPN надёжнее</p>
             </Link>
             <Link href="/articles/vpn-posle-1-maya-2026-polnoe-rukovodstvo" style={{display:'block',padding:'16px',border:'1px solid #e5e7eb',borderRadius:'8px',textDecoration:'none',color:'inherit'}}>
-              <strong>VPN после 1 мая 2026</strong>
+              <strong>VPN после 2026-05-01</strong>
               <p style={{fontSize:'14px',color:'#6b7280',marginTop:'8px'}}>Полное руководство для пользователей России после новых ограничений</p>
             </Link>
             <Link href="/articles/zakonen-li-vpn-v-rossii-v-2026-shtrafy-otvetstvennost-i-chto-realno-grozit-polzovatelyam" style={{display:'block',padding:'16px',border:'1px solid #e5e7eb',borderRadius:'8px',textDecoration:'none',color:'inherit'}}>

@@ -531,7 +531,7 @@ export default function ArticlePage() {
 
           <h3>Сценарий 2: Платный международный трафик</h3>
 
-          <p>С 1 мая 2026 года российские операторы вводят плату за международный трафик: 15 ГБ бесплатно, далее 150₽/ГБ. VPN-трафик тоже международный, поэтому:</p>
+          <p>С 2026-05-01 года российские операторы вводят плату за международный трафик: 15 ГБ бесплатно, далее 150₽/ГБ. VPN-трафик тоже международный, поэтому:</p>
 
           <ul>
             <li>Включите сжатие трафика в VPN-клиенте (если поддерживается)</li>
@@ -642,7 +642,7 @@ export default function ArticlePage() {
               <p style={{fontSize:'14px',color:'#6b7280',marginTop:'8px'}}>Четыре метода детекции VLESS и почему XHTTP — следующая ступень эволюции</p>
             </Link>
             <Link href="/articles/vpn-posle-1-maya-2026-polnoe-rukovodstvo" style={{display:'block',padding:'16px',border:'1px solid #e5e7eb',borderRadius:'8px',textDecoration:'none',color:'inherit'}}>
-              <strong>VPN после 1 мая 2026: полное руководство</strong>
+              <strong>VPN после 2026-05-01: полное руководство</strong>
               <p style={{fontSize:'14px',color:'#6b7280',marginTop:'8px'}}>Apple удалила VPN из App Store, вводится плата за трафик — что делать</p>
             </Link>
             <Link href="/articles/limit-15-gb-vpn-traffic-may-2026" style={{display:'block',padding:'16px',border:'1px solid #e5e7eb',borderRadius:'8px',textDecoration:'none',color:'inherit'}}>

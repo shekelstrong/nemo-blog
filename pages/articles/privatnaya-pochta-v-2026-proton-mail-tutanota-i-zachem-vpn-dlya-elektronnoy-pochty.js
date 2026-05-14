@@ -381,7 +381,7 @@ Subject: Защищённое сообщение
 Date: Mon, 27 Apr 2026 22:00:00 +0000
 [Содержимое зашифровано]</code></pre>
 
-        <p>Провайдер видит, что alice@protonmail.com отправила письмо bob@tutanota.com в 22:00 27 апреля 2026. Это — metadata leak.</p>
+        <p>Провайдер видит, что alice@protonmail.com отправила письмо bob@tutanota.com в 22:00 2026-04-27. Это — metadata leak.</p>
 
         <h3>Как VPN помогает</h3>
 
