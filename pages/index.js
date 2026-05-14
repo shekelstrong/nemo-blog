@@ -139,7 +139,12 @@ export async function getStaticProps() {
   }
 
   const allArticles = Array.from(slugMap.values())
-    .sort((a, b) => b.date.localeCompare(a.date))
+    .sort((a, b) => {
+      const da = String(a.date).includes('-') ? String(a.date) : a.date
+      const db = String(b.date).includes('-') ? String(b.date) : b.date
+      return db.localeCompare(da)
+    })
+    .map(a => ({ ...a, dateDisplay: formatDate(a.date) }))
 
   return {
     props: { articles: allArticles },
@@ -190,7 +195,7 @@ export default function Index({ articles }) {
               <h2 className="text-xl font-bold mb-2">{article.title}</h2>
               <p className="text-gray-600 mb-3">{article.description}</p>
               <div className="text-sm text-gray-500 flex items-center gap-2">
-                <span>{formatDate(article.date)}</span>
+                <span>{article.dateDisplay || article.date}</span>
                 <span>•</span>
                 <span>{article.tags.join(', ')}</span>
               </div>
