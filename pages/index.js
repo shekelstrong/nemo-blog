@@ -146,6 +146,15 @@ export async function getStaticProps() {
   }
 }
 
+const RU_MONTHS = {'01':'января','02':'февраля','03':'марта','04':'апреля','05':'мая','06':'июня','07':'июля','08':'августа','09':'сентября','10':'октября','11':'ноября','12':'декабря'}
+
+function formatDate(dateStr) {
+  if (!dateStr) return ''
+  const [y, m, d] = String(dateStr).split('-')
+  if (y && m && d) return `${parseInt(d)} ${RU_MONTHS[m] || m} ${y}`
+  return dateStr
+}
+
 export default function Index({ articles }) {
   return (
     <>
@@ -181,7 +190,7 @@ export default function Index({ articles }) {
               <h2 className="text-xl font-bold mb-2">{article.title}</h2>
               <p className="text-gray-600 mb-3">{article.description}</p>
               <div className="text-sm text-gray-500 flex items-center gap-2">
-                <span>{article.date}</span>
+                <span>{formatDate(article.date)}</span>
                 <span>•</span>
                 <span>{article.tags.join(', ')}</span>
               </div>
