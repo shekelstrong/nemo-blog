@@ -1,6 +1,6 @@
 ---
 title: 'VPN для Android: полная настройка, безопасность и лучшие приложения в 2026'
-date: '14 мая 2026'
+date: '2026-05-14'
 tags: ['VPN', 'Android', 'настройка', 'безопасность', 'VLESS Reality', 'WireGuard', 'kill switch', 'leak test', 'DPI', 'ТСПУ', '2026']
 description: 'Полный гайд по VPN на Android в 2026. Настройка VLESS Reality через Streisand и NekoBox, проверка утечек DNS и IPv6, kill switch, сравнение приложений, оптимизация батареи, обход блокировок Google Play. Обновлено: май 2026.'
 keywords: ['VPN Android 2026', 'VLESS Reality Android', 'kill switch Android', 'DNS leak Android', 'ТСПУ 2.0', 'WireGuard блокировка', 'Streisand Android', 'NekoBox VPN', 'NEMO VPN Android', 'VPN утечки IPv6']

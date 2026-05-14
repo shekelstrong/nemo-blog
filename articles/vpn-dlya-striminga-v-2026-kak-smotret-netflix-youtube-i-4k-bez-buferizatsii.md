@@ -1,6 +1,7 @@
 ---
 title: "VPN для стриминга в 2026: как смотреть Netflix, YouTube и 4K без буферизации"
-date: "27 апреля 2026"
+description: "Полный гайд по выбору VPN для стриминга в 2026 году. Как обойти ISP throttling, смотреть Netflix в России, 4K на YouTube, WireGuard vs OpenVPN, NordLynx, Lightway, тестирование скорости и пинга. Требуемая скорость для 4K — 15 Мбит/с, для HD — 5 Мбит/с."
+date: '2026-04-27'
 tags: ["VPN", "стриминг", "Netflix", "YouTube", "4K", "throttling", "WireGuard", "NordLynx", "Speedtest", "буферизация"]
 description: "Полный гайд по VPN для стриминга в 2026: как обойти ISP throttling, смотреть Netflix в России, организовать 4K на YouTube. Сравнение протоколов WireGuard, NordLynx, Lightway, Hysteria2. Требуемая скорость для 4K — 15 Мбит/с, для HD — 5 Мбит/с."
 keywords: [VPN для стриминга, Netflix через VPN, ISP throttling обход, 4K стриминг, WireGuard для видео, NordLynx скорость, Lightway протокол, буферизация видео, VPN для YouTube, VPN Netflix Россия]

@@ -1,12 +1,8 @@
 ---
-title: 'VPN и дети: как защитить ребёнка в интернете — родительский контроль, фильтрация и безопасность в 2026'
-date: '14 мая 2026'
-tags: [VPN, родительский контроль, безопасность детей, цифровая гигиена, фильтрация контента, Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link, DNS-фильтрация, NEMO VPN, VLESS Reality, WireGuard]
-description: 'Полный гайд по цифровой безопасности детей в 2026 году. Родительский контроль, DNS-фильтрация, опасности бесплатных VPN для детей, сравнение Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link, split tunneling для семьи и чек-лист из 10 шагов.'
-keywords: [VPN для детей, родительский контроль, фильтрация контента, безопасность детей в интернете, Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link, цифровая гигиена, бесплатные VPN опасности, split tunneling для семьи, DNS-фильтрация]
-author: 'NEMO VPN'
-category: 'vpn'
-image: '/logo.jpg'
+title: "VPN и дети: как защитить ребёнка в интернете — родительский контроль, фильтрация и безопасность в 2026"
+description: "Полный гайд по цифровой безопасности детей в 2026 году. Почему родительский контроль необходим, как дети обходят блокировки через VPN, опасности бесплатных VPN для детей, лучшие инструменты родительского контроля (Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link), DNS-фильтрация, split tunneling для семьи и чек-лист для родителей из 10 шагов."
+date: '2026-04-27'
+tags: ["VPN", "родительский контроль", "безопасность детей", "цифровая гигиена", "фильтрация контента", "Qustodio", "Norton Family", "Kaspersky Safe Kids", "Google Family Link", "NEMO VPN"]
 ---
 
 <script type="application/ld+json">

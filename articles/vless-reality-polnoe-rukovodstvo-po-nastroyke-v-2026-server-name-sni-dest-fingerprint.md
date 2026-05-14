@@ -1,6 +1,6 @@
 ---
 title: 'VLESS Reality: полное руководство по настройке в 2026 (Server Name, SNI, Dest, Fingerprint)'
-date: '27 апреля 2026'
+date: '2026-04-27'
 tags: ['инструкции', 'VLESS Reality', 'Xray', 'VPN', 'обход DPI', 'настройка', 'Server Name', 'SNI', 'Dest', 'Fingerprint', '2026']
 description: 'VLESS Reality — современный протокол обхода DPI для Xray. Полное руководство по настройке в 2026: Server Name, Dest, SNI, Fingerprint (Chrome), Private Key, Short ID. JSON конфиг Xray, панель 3x-UI, как работает подмена сертификатов, чем отличается от WireGuard и AmneziaWG, NEMO VPN CTA.'
 ---
@@ -719,7 +719,7 @@ Reality использует **чистый TLS без HTTP/2**. DPI не вид
 
 ### Обход лимита 15 ГБ
 
-С 1 мая 2026 года в России вводится плата за международный трафик: 15 ГБ бесплатно, далее 150₽ за ГБ.
+С 2026-05-01 года в России вводится плата за международный трафик: 15 ГБ бесплатно, далее 150₽ за ГБ.
 
 **VLESS Reality на роутере:** трафик не считается международным.
 

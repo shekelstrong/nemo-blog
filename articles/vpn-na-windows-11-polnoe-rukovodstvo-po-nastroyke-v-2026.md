@@ -1,12 +1,8 @@
 ---
-title: "VPN на Windows 11: полное руководство по настройке в 2026"
-description: "Полное руководство по настройке VPN на Windows 11 в 2026 году. Все протоколы от PPTP до VLESS Reality, пошаговые инструкции, проверка утечек DNS и IPv6, автозапуск, split tunneling, kill switch, troubleshooting и сравнение с Windows 10."
-date: "14 мая 2026"
-tags: ["VPN", "Windows 11", "настройка VPN", "WireGuard", "OpenVPN", "VLESS Reality", "IKEv2", "SSTP", "DPI", "kill switch", "split tunneling", "2026"]
-keywords: ["VPN Windows 11", "настройка VPN", "VLESS Reality", "WireGuard Windows", "OpenVPN Windows", "kill switch", "DNS leak Windows", "IKEv2 Windows 11", "SSTP VPN", "обход DPI Windows", "автозапуск VPN", "NEMO VPN"]
-author: "NEMO VPN"
-category: "vpn"
-image: "/logo.jpg"
+title: 'VPN на Windows 11: полное руководство по настройке в 2026'
+date: '2026-04-27'
+tags: ['инструкции', 'VPN', 'Windows 11', 'настройка', 'WireGuard', 'OpenVPN', 'VLESS', 'руководство']
+description: 'Полное руководство по настройке VPN на Windows 11 в 2026 году. Встроенный VPN, настройка через проводник, протоколы PPTP/L2TP/SSTP/IKEv2, WireGuard, OpenVPN, VLESS/Xray, автозапуск, проверка утечек и troubleshooting.'
 ---
 <script type="application/ld+json">
 {

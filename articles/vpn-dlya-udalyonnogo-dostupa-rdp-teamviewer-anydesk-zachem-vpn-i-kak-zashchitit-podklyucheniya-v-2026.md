@@ -1,6 +1,6 @@
 ---
 title: 'VPN для удалённого доступа: RDP, TeamViewer, AnyDesk — зачем VPN и как защитить подключения в 2026'
-date: '27 апреля 2026'
+date: '2026-04-27'
 tags: [VPN, RDP, TeamViewer, AnyDesk, удалённый доступ, безопасность, WireGuard, Tailscale, ZeroTier, NEMO VPN]
 description: 'Полный гайд по безопасному удалённому доступу в 2026 году. Протокол RDP, TeamViewer, AnyDesk, российские альтернативы (RuDesktop, Ассистент, PRO32 Connect, RMS), бесплатные инструменты (Chrome Remote Desktop, DWService, TightVNC). Почему RDP без VPN опасен, как VPN защищает подключения, настройка WireGuard, Tailscale, ZeroTier и NEMO VPN для безопасного удалённого доступа.'
 ---

@@ -1,12 +1,8 @@
 ---
 title: 'Как настроить VPN на Android и iPhone в 2026: пошаговая инструкция'
-date: '14 мая 2026'
-tags: ['VPN', 'Android', 'iPhone', 'iOS', 'настройка', 'VLESS Reality', 'инструкции', 'v2rayNG', 'Streisand', 'XHTTP', '2026']
-description: 'Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Три способа для каждой платформы: через приложения, ручная настройка, VLESS Reality. Проверка утечек, решение проблем.'
-keywords: ['настройка VPN Android', 'VPN iPhone iOS', 'VLESS Reality настройка', 'v2rayNG инструкция', 'Streisand iOS', 'VPN на телефоне 2026', 'обход блокировок DPI', 'XHTTP настройка', 'VPN после чистки App Store']
-author: 'NEMO VPN'
-category: 'vpn'
-image: '/logo.jpg'
+date: '2026-04-26'
+tags: [инструкции, VPN, Android, iPhone, iOS, настройка, VLESS Reality, руководство]
+description: 'Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Через приложения, вручную, VLESS Reality через v2rayNG/HAPP. Проверка работоспособности, частые проблемы и решения.'
 ---
 
 ## VPN на смартфоне в 2026: почему простое приложение больше не работает
@@ -196,4 +192,4 @@ Apple удаляет VPN-приложения по требованию Роск
 
 ---
 
-*Статья обновлена: 14 мая 2026*
+*Статья обновлена: 2026-05-14*

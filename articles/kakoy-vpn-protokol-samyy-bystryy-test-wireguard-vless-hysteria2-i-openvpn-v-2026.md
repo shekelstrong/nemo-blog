@@ -1,12 +1,8 @@
 ---
 title: 'Какой VPN-протокол самый быстрый: тест WireGuard, VLESS, Hysteria2 и OpenVPN в 2026'
-date: '14 мая 2026'
-tags: ['VPN', 'скорость', 'протоколы', 'WireGuard', 'VLESS Reality', 'Hysteria2', 'OpenVPN', 'бенчмарк', '2026', 'тестирование', 'DPI', 'XHTTP', 'Trojan', 'Shadowsocks']
-description: 'Полное сравнение скорости VPN-протоколов в 2026 году: WireGuard, VLESS Reality, Hysteria2, OpenVPN, IKEv2, Trojan, Shadowsocks. Реальные бенчмарки, 4 причины замедления, пошаговое тестирование скорости и выбор протокола для России.'
-keywords: [скорость VPN, бенчмарк VPN протоколов, WireGuard скорость, VLESS Reality скорость, Hysteria2 тест, OpenVPN vs WireGuard, лучший VPN протокол для России, DPI обход, XHTTP, Trojan VPN]
-author: 'NEMO VPN'
-category: 'vpn'
-image: '/logo.jpg'
+date: '2026-04-27'
+tags: ['VPN', 'скорость', 'протоколы', 'WireGuard', 'VLESS Reality', 'Hysteria2', 'OpenVPN', 'бенчмарк', '2026', 'тестирование', 'DPI']
+description: 'Полное сравнение скорости VPN-протоколов в 2026: WireGuard, VLESS Reality, Hysteria2, OpenVPN, IKEv2, Trojan, Shadowsocks. Бенчмарк тестов, 4 причины замедления, как протестировать скорость VPN, выбор для России.'
 ---
 
 ## VPN-протоколы в 2026: кто быстрее и почему это важно
@@ -284,4 +280,14 @@ Android: v2rayNG, v2RayTun, Sing-box. iOS: Streisand, v2Box. Windows: NekoRay, v
 
 ---
 
-*Статья обновлена: 14 мая 2026*
+## Дополнительные источники
+
+1. [ZhuqueVPN 2026 benchmark](https://zhuquevpn.com/benchmark-2026) — сравнение WireGuard, OpenVPN, IKEv2
+2. [ProxyPoland: VLESS vs WireGuard DPI тест 2026](https://proxypoland.com/blog/vless-wireguard-dpi-2026) — анализ скрытности протоколов
+3. [Tech-Insider: WireGuard vs OpenVPN 2026](https://tech-insider.io/wireguard-openvpn-2026) — бенчмарк скорости
+4. [TheBestVPN: 6 самых быстрых VPN 2026](https://thebestvpn.com/fastest-vpn-2026) — причины замедления
+5. [VPNpro: NordVPN самый быстрый](https://vpnpro.com/nordvpn-speed-test-2026) — реальные тесты NordVPN
+
+---
+
+*Статья обновлена: 2026-04-27*

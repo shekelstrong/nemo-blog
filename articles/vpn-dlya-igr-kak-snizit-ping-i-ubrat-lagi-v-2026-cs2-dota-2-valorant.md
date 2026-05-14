@@ -1,12 +1,8 @@
 ---
 title: 'VPN для игр: как снизить пинг и убрать лаги в 2026 (CS2, Dota 2, Valorant)'
-date: '27 апреля 2026'
-tags: [VPN, игры, пинг, лаги, CS2, Dota 2, Valorant, WireGuard, Hysteria2, гейминг, 2026]
-description: 'VPN для игр в 2026: как снизить пинг и убрать лаги в CS2, Dota 2 и Valorant. Почему VPN может УМЕНЬШАТЬ пинг, а не увеличивать его. ISP throttle, плохая маршрутизация, WireGuard vs Hysteria2 vs OpenVPN, split tunneling, тестирование серверов и пошаговые инструкции.'
-keywords: [VPN для игр, снизить пинг, CS2 VPN, Dota 2 пинг, Valorant VPN, WireGuard гейминг, Hysteria2 игры, лаги в играх, пинг в CS2, VPN Россия игры, ISP throttle, split tunneling, Riot Games VPN, Valve VPN, гейминг VPN 2026]
-author: 'NEMO VPN'
-category: 'vpn'
-image: '/logo.jpg'
+date: '2026-04-27'
+tags: ['VPN', 'игры', 'пинг', 'лаги', 'CS2', 'Dota 2', 'Valorant', 'WireGuard', 'гейминг', '2026']
+description: 'VPN для игр в 2026: как снизить пинг и убрать лаги в CS2, Dota 2 и Valorant. Почему VPN может УМЕНЬШАТЬ пинг, а не увеличивать его. ISP throttle, плохая маршрутизация, WireGuard vs OpenVPN, лучшие VPN для гейминга, split tunneling, тестирование серверов. Riot Games и Valve не банят за VPN.'
 ---
 
 import { Article } from '../components/Article'
@@ -476,4 +472,24 @@ VPN для игр в 2026 году — это не «необходимое зл
 
 **NEMO VPN** — платный сервис с оплатой в рублях через CryptoBot, протоколами Hysteria2 и VLESS Reality для обхода DPI, residential IP и автоматическим split tunneling. Попробуйте бесплатно через [Telegram-бот](https://t.me/nemo_vpn_bot).
 
-</Article>
+- **NordVPN:** лучший выбор (NordLynx, покрытие, стабильность)
+- **ProtonVPN:** отличная альтернатива (WireGuard, швейцарская юрисдикция)
+- **Surfshark:** дёшево и хорошо (WireGuard, unlimited devices)
+- **IPVanish:** надёжный середняк (WireGuard, собственная инфраструктура)
+
+**Для России в 2026:**
+
+- NEMO VPN с Hysteria2/GrPC/VLESS Reality
+- Оптимизирован для обхода DPI
+- Минимальная задержка
+- Автоматическая настройка
+
+Попробуйте разные VPN, протестируйте пинг, выберите то, что работает для вас. И помните: VPN может снизить пинг, но только если выбран правильный сервер и протокол.
+
+**Попробуйте NEMO VPN бесплатно:**
+
+Telegram-бот: [@nemo_vpn_bot](https://t.me/nemo_vpn_bot)
+
+---
+
+*Статья обновлена 2026-04-27 года. Актуально для CS2, Dota 2, Valorant.*

@@ -1,6 +1,6 @@
 ---
 title: "VPN на Mac: полное руководство по настройке и выбору в 2026"
-date: "14 мая 2026"
+date: '2026-05-14'
 tags: [VPN, Mac, macOS, WireGuard, VLESS, OpenVPN, настройка, безопасность, NEMO VPN]
 description: "Полное руководство по настройке VPN на Mac и macOS в 2026 году. Сравнение протоколов, лучшие приложения, пошаговые инструкции для WireGuard, VLESS Reality, OpenVPN и встроенного VPN Mac. Обход блокировок и защита данных."
 keywords: [VPN Mac 2026, VPN macOS, настройка VPN Mac, VLESS Reality Mac, WireGuard macOS, OpenVPN Mac, обход блокировок Mac, NEMO VPN]
