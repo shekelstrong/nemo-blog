@@ -31,3 +31,4 @@ GitHub push → Vercel автодеплой. Репозиторий: `shekelstro
 - `pages/about.js` — о сервисе
 - `public/logo.jpg` — логотип
 # Build: Thu May 14 04:31:57 PM MSK 2026
+# Cache bust: 1778769142
