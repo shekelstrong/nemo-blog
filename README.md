@@ -30,3 +30,4 @@ GitHub push → Vercel автодеплой. Репозиторий: `shekelstro
 - `pages/articles/[slug].js` — статьи (SSG)
 - `pages/about.js` — о сервисе
 - `public/logo.jpg` — логотип
+# Build: Thu May 14 04:31:57 PM MSK 2026
