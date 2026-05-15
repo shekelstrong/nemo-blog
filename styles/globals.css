@@ -291,10 +291,19 @@
   .prose h1 { font-size: 1.5rem !important; }
   .prose h2 { font-size: 1.25rem !important; }
   .prose h3 { font-size: 1.1rem !important; }
+  .prose p { font-size: 0.9375rem !important; line-height: 1.65 !important; }
   .prose ul, .prose ol { padding-left: 1.25rem !important; }
-  .prose pre { font-size: 0.75rem !important; padding: 0.75rem !important; }
+  .prose li { font-size: 0.9375rem !important; }
+  .prose pre { font-size: 0.75rem !important; padding: 0.75rem !important; max-width: 100% !important; overflow-x: auto !important; }
   .prose blockquote { margin: 1rem 0 !important; padding-left: 0.75rem !important; }
+  .prose img, .prose video, .prose iframe { max-width: 100% !important; height: auto !important; }
+  .prose table { display: block !important; width: 100% !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; max-width: 100% !important; }
+  .prose .article-image { max-width: 100% !important; }
   .related-grid { grid-template-columns: 1fr !important; }
   .cta-block { padding: 1rem !important; }
   .article-header h1 { font-size: 1.5rem !important; margin-top: 0.5rem !important; }
+  .back-link { font-size: 0.8125rem !important; }
+  .article-header-meta { flex-wrap: wrap !important; }
+  .article-tag { font-size: 0.6875rem !important; }
+  .min-h-screen { overflow-x: hidden !important; }
 }
