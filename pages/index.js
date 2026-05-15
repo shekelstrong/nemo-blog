@@ -13,112 +13,112 @@ const hardcodedArticles = [
     description: 'Как VPN защищает криптовалютные кошельки и транзакции в 2026 году. Отслеживание блокчейна, деанонимация через IP, санкции против криптобирж, оплата VPN за криптовалюту и выбор приватных протоколов.',
     date: '2026-05-11',
     tags: ['VPN', 'криптовалюта', 'безопасность', 'блокчейн', 'Bitcoin', 'деанонимация', 'санкции', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'vpn-i-oblachnye-servisy-dropbox-google-drive-onedrive-2026',
     title: 'VPN и облачные сервисы: Dropbox, Google Drive, OneDrive в 2026',
     description: 'Как получить доступ к Dropbox, Google Drive и OneDrive из России в 2026 году. Блокировки, ограничения скорости, санкции и способы обхода через VPN. Сравнение облачных хранилищ и настройка VPN для работы с облаком.',
     date: '2026-05-11',
     tags: ['VPN', 'облачные сервисы', 'Dropbox', 'Google Drive', 'OneDrive', 'санкции', 'блокировки', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'ipv6-i-vpn-pochemu-ipv6-leak-opasnee-ipv4-leak-2026',
     title: 'IPv6 и VPN: почему IPv6-leak опаснее IPv4-leak в 2026',
     description: 'IPv6-leak раскрывает ваш реальный IP и местоположение даже через VPN. Разбираем, почему утечка IPv6 опаснее IPv4, как провайдеры и ТСПУ используют IPv6 для деанонимации, и как защититься.',
     date: '2026-05-09',
     tags: ['IPv6', 'IPv6-leak', 'VPN', 'утечки IP', 'DPI', 'безопасность', 'приватность', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'vpn-dlya-mac-nastroyka-bezopasnost-i-luchshie-protokoly-2026',
     title: 'VPN для Mac: настройка, безопасность и лучшие протоколы 2026',
     description: 'Полное руководство по VPN на macOS в 2026: выбор протокола, настройка VLESS Reality и WireGuard, обход DPI на Mac, сравнение клиентов, безопасность и типичные ошибки.',
     date: '2026-05-09',
     tags: ['VPN', 'macOS', 'Mac', 'VLESS Reality', 'WireGuard', 'DPI', 'безопасность', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'vpn-dlya-udalyonnoy-raboty-zoom-teams-slack-iz-rossii-2026',
     title: 'VPN для удалённой работы: Zoom, Teams, Slack из России в 2026',
     description: 'Как настроить VPN для удалённой работы из России в 2026: Zoom, Microsoft Teams, Slack, Google Workspace и другие сервисы, заблокированные или ограниченные. Протоколы, сплит-туннелинг, обход DPI и практические гайды.',
     date: '2026-05-09',
     tags: ['VPN', 'удалённая работа', 'Zoom', 'Teams', 'Slack', 'DPI', 'сплит-туннелинг', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'kak-ustroen-deep-packet-inspection-anatomiya-tspu-2026',
     title: 'Как устроен Deep Packet Inspection: техническая анатомия ТСПУ в 2026',
     description: 'Глубокий технический разбор DPI и ТСПУ в России 2026: архитектура, методы фильтрации, JA3-хэши, активное зондирование, TLS-профайлинг и машинное обучение. Как работает система блокировок на практике.',
     date: '2026-05-08',
     tags: ['DPI', 'ТСПУ', 'блокировки', 'Deep Packet Inspection', 'цензура', 'VPN', 'технологии', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'multi-hop-vpn-tsepochki-proksi-maksimalnaya-anonimnost-2026',
     title: 'Multi-hop VPN и цепочки прокси: максимальная анонимность в 2026',
     description: 'Как работают многоскачковые VPN и цепочки прокси в 2026 году: луковая маршрутизация, каскадное шифрование, защита от корреляционного трафик-анализа. Сравнение с Tor, настройка и выбор провайдеров в России.',
     date: '2026-05-08',
     tags: ['Multi-hop VPN', 'цепочки прокси', 'анонимность', 'Tor', 'VLESS', 'каскадное шифрование', 'VPN', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'vpn-i-ai-kak-iskusstvennyy-intellekt-obkhodit-dpi-i-analiziruet-blokirovki-2026',
     title: 'VPN и ИИ: как искусственный интеллект обходит DPI и блокировки в 2026',
     description: 'ИИ и машинное обучение помогают обходить DPI-блокировки в России в 2026. Генетические алгоритмы Geneva, ML-обфускация трафика, адаптивные VPN-протоколы и анализ цензуры.',
     date: '2026-05-08',
     tags: ['ИИ', 'DPI', 'VPN', 'машинное обучение', 'Geneva', 'обфускация', 'блокировки', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'besplatnyy-vpn-alternativy-posle-volny-blokirovok-2026',
     title: 'Бесплатный VPN: альтернативы после волны блокировок 2026',
     description: 'Какие бесплатные VPN ещё работают в России после волны блокировок 2026 года. Сравнение Proton VPN, Windscribe, Planet VPN и других. Риски, ограничения и когда бесплатный VPN оправдан.',
     date: '2026-05-08',
     tags: ['бесплатный VPN', 'Proton VPN', 'Windscribe', 'Planet VPN', 'блокировки', 'VPN', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'besplatnyy-vs-platnyy-vpn-2026-skrytye-riski-i-alternativy',
     title: 'Бесплатный vs платный VPN в 2026: скрытые риски и реальные альтернативы',
     description: 'Сравнение бесплатных и платных VPN в 2026 году. Скрытые риски бесплатных сервисов: продажа данных, инъекция рекламы, ботнеты. Когда платный VPN оправдан и как выбрать надёжного провайдера.',
     date: '2026-05-08',
     tags: ['VPN', 'бесплатный VPN', 'платный VPN', 'безопасность', 'сравнение', 'Proton VPN', 'NordVPN', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'cloudflare-zero-trust-i-tunneli-alternativa-vpn-v-2026',
     title: 'Cloudflare Zero Trust и туннели: альтернатива VPN в 2026',
     description: 'Cloudflare Zero Trust, WARP и туннели как альтернатива VPN в 2026. Как настроить Cloudflared для обхода блокировок, сравнение с традиционными VPN и когда это работает лучше.',
     date: '2026-05-08',
     tags: ['Cloudflare', 'Zero Trust', 'WARP', 'туннели', 'VPN', 'альтернатива', 'блокировки', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'limit-15-gb-vpn-traffic-may-2026',
     title: 'Лимит 15 ГБ на VPN-трафик: что происходит в мае 2026',
     description: 'С мая 2026 года провайдеры вводят лимит 15 ГБ на VPN-трафик. Разбираем, что это значит, как это работает и как обойти ограничения.',
     date: '2026-05-07',
     tags: ['VPN', 'лимит трафика', 'блокировки', 'ТСПУ', 'DPI', 'обход ограничений', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'privatnaya-pochta-v-2026-proton-mail-tutanota-i-zachem-vpn-dlya-elektronnoy-pochty',
     title: 'Приватная почта в 2026: Proton Mail, Tutanota и зачем VPN для электронной почты',
     description: 'Зачем VPN для электронной почты в 2026: Proton Mail, Tutanota и другие приватные почтовые сервисы. Шифрование, обход блокировок, PGP и защита переписки.',
     date: '2026-05-07',
     tags: ['VPN', 'приватная почта', 'Proton Mail', 'Tutanota', 'шифрование', 'PGP', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
   {
     slug: 'kak-tspu-lovit-vless-i-pochemu-xhttp-sleduyushchiy-shag-2026',
     title: 'Как ТСПУ ловит VLESS и почему XHTTP — следующий шаг в 2026',
     description: 'Технический разбор: как ТСПУ детектирует VLESS Reality в 2026 году. Активное зондирование, JA3-профайлинг и почему XHTTP/CDN-маскировка — следующая ступень эволюции обхода DPI.',
     date: '2026-05-07',
     tags: ['VLESS', 'XHTTP', 'ТСПУ', 'DPI', 'протоколы', 'блокировки', 'обход', '2026'],
-  }image: null,
-  }
+    image: null,
+  },
 ]
 
 export async function getStaticProps() {
