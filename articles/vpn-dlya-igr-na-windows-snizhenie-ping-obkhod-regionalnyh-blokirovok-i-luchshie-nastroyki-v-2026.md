@@ -2,11 +2,11 @@
 title: "VPN для игр на Windows: снижение пинга, обход региональных блокировок и лучшие настройки в 2026"
 date: "2026-05-14"
 tags: ["VPN для игр", "Windows 10", "Windows 11", "пинг", "CS2", "Valorant", "Fortnite", "VLESS Reality", "WireGuard", "Hysteria2", "Xray", "DPI обход", "ТСПУ", "Kill Switch", "split tunneling", "гейминг", "NEMO VPN", "2026"]
-description: "Полный гайд по VPN для гейминга на Windows в 2026: настройка VLESS Reality и Xray-core, снижение пинга, обход DPI/ТСПУ, сравнение протоколов, split tunneling через PowerShell, оптимизация реестра, Kill Switch, DNS over HTTPS."
+
+image: "/articles/images/vpn-dlya-igr-na-windows-snizhenie-ping-obkhod-regionalnyh-blokirovok-i-luchshie-nastroyki-v-2026.jpg"
 keywords: ["VPN для игр", "Windows 10 VPN", "Windows 11 VPN", "снижение пинга", "VLESS Reality", "Xray-core", "Hysteria2", "WireGuard заблокирован", "DPI обход", "ТСПУ блокировки", "CS2 VPN", "Valorant VPN", "Fortnite VPN", "Kill Switch Windows", "split tunneling PowerShell", "NEMO VPN", "гейминг VPN 2026"]
 author: "NEMO VPN"
 category: "guides"
-image: "/images/vpn-gaming-windows-2026.jpg"
 ---
 
 <script type="application/ld+json">

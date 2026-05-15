@@ -2,7 +2,8 @@
 title: 'VPN и умный дом: защита IoT-устройств, камер, умных лампочек и техники в 2026'
 date: '2026-05-14'
 tags: [VPN, умный дом, IoT, безопасность, камеры, Smart Home, VLESS Reality, WireGuard, NEMO VPN]
-description: 'Полное руководство по защите умного дома с помощью VPN в 2026. Настройка VPN на роутере, VLAN для IoT, защита камер, умных замков, колонок и бытовой техники от взлома.'
+
+image: "/articles/images/vpn-smart-home-iot-security.jpg"
 keywords: [VPN умный дом, IoT безопасность, защита камер, VPN на роутере, VLAN IoT, умный дом 2026, защита IoT, NEMO VPN, WireGuard роутер]
 author: 'NEMO VPN'
 category: vpn

@@ -2,7 +2,8 @@
 title: 'VPN для macOS: полное руководство по настройке, безопасности и обходу блокировок в 2026'
 date: '2026-05-14'
 tags: [VPN, macOS, Mac, Apple, VLESS Reality, WireGuard, безопасность, обход блокировок, NEMO VPN, настройка]
-description: 'Полное руководство по настройке VPN на macOS в 2026 году. Сравнение протоколов, пошаговая настройка VLESS Reality и WireGuard, устранение проблем, оптимизация скорости и защита от утечек на Mac.'
+
+image: "/articles/images/vpn-dlya-macos-polnoe-rukovodstvo-po-nastroyke-i-bezopasnosti-v-2026.jpg"
 keywords: [VPN macOS, VPN Mac, настройка VPN macOS, VLESS Reality Mac, WireGuard macOS, обход блокировок Mac, NEMO VPN macOS, лучший VPN Mac]
 author: 'NEMO VPN'
 category: vpn

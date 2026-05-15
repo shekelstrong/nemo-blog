@@ -1,11 +1,11 @@
 ---
 title: "VPN-расширения для браузера: лучшие для Chrome и Firefox в 2026"
-description: "Полный обзор VPN-расширений для браузеров в 2026 году. Чем отличается расширение от VPN-приложения, лучшие варианты для Chrome и Firefox, бесплатные и платные решения, когда достаточно расширения, а когда нужен полноценный VPN-клиент."
+
+image: "/articles/images/vpn-rasshireniya-dlya-brauzera-luchshie-dlya-chrome-i-firefox-v-2026.jpg"
 keywords: "VPN расширение Chrome, VPN расширение Firefox, браузерный VPN 2026, Planet VPN, NordVPN расширение, ExpressVPN расширение, uVPN, Hotspot Shield, Opera VPN, Brave Firewall"
 author: "NEMO VPN"
 date: "2026-04-27"
 category: "guides"
-image: "/images/vpn-browser-extensions-2026.jpg"
 ---
 
 <script type="application/ld+json">

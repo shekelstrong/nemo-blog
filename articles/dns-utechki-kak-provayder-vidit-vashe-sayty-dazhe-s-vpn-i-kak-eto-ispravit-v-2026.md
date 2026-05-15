@@ -2,7 +2,8 @@
 title: 'DNS-утечки: как провайдер видит ваши сайты даже с VPN, и как это исправить в 2026'
 date: '2026-04-27'
 tags: [VPN, DNS-утечки, DoH, DoT, безопасность, приватность, провайдер, РКН, NEMO VPN, Cloudflare, Google DNS]
-description: 'VPN шифрует трафик, но DNS-запросы могут идти мимо туннеля. Провайдер видит все сайты, которые вы посещаете. Разбираем причины DNS-утечек, проверяем VPN на утечки, настраиваем DNS over HTTPS (DoH) и DNS over TLS (DoT), сравниваем протоколы и объясняем, как NEMO VPN на VLESS Reality защищает от утечек автоматически.'
+
+image: "/articles/images/dns-utechki-kak-provayder-vidit-vashe-sayty-dazhe-s-vpn-i-kak-eto-ispravit-v-2026.jpg"
 keywords: [DNS утечки, DNS leak, DoH, DoT, DNS over HTTPS, DNS over TLS, провайдер слежка, РКН, VPN приватность, Cloudflare DNS, VLESS Reality, kill switch, WebRTC утечки, IPv6 утечки, DPI, ТСПУ]
 author: 'NEMO VPN'
 category: 'vpn'

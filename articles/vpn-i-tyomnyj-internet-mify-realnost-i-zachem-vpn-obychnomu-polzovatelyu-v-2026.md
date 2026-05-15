@@ -1,11 +1,11 @@
 ---
 title: "VPN и тёмный интернет: мифы, реальность и зачем VPN обычному пользователю в 2026"
-description: "Разбираем популярные мифы о VPN и тёмном интернете. VPN ≠ Tor — разные инструменты для разных задач. Почему VPN не даёт доступ к .onion, не делает вас анонимным, но решает 99% задач обычного пользователя. Tor Browser, риски тёмного интернета и зачем комбинировать VPN + Tor."
+
+image: "/articles/images/vpn-i-tyomnyj-internet-mify-realnost-i-zachem-vpn-obychnomu-polzovatelyu-v-2026.jpg"
 keywords: "VPN тёмный интернет, Dark Web, Tor, .onion, VPN vs Tor, анонимность, VPN мифы, Tor Browser, бесплатный VPN, безопасность интернета"
 author: "NEMO VPN"
 date: "2026-04-28"
 category: "guides"
-image: "/images/vpn-dark-web-2026.jpg"
 ---
 
 <script type="application/ld+json">

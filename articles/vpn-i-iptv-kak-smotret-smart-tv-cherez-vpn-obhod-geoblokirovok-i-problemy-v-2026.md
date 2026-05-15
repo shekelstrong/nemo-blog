@@ -1,11 +1,11 @@
 ---
 title: "VPN и IPTV: как смотреть Smart TV через VPN, обход геоблокировок и проблемы в 2026"
-description: "Полный гайд по настройке VPN для Smart TV и IPTV в 2026 году. Как обходить геоблокировки Netflix, Disney+, смотреть 4K контент без буферизации. NordVPN, ExpressVPN, Surfshark — лучшие VPN для стриминга. Smart DNS, мобильный стриминг и проблемы бандвита."
+
+image: "/articles/images/vpn-i-iptv-kak-smotret-smart-tv-cherez-vpn-obhod-geoblokirovok-i-problemy-v-2026.jpg"
 keywords: "VPN Smart TV, IPTV через VPN, обход геоблокировок, Netflix VPN, Disney+ VPN, 4K стриминг, Smart DNS, NordVPN, ExpressVPN, Surfshark, бандвит, Smart Tizen, LG webOS, Android TV, VLESS Reality, 2026"
 author: "NEMO VPN"
 date: "2026-04-28"
 category: "guides"
-image: "/images/vpn-iptv-smart-tv-2026.jpg"
 ---
 
 <script type="application/ld+json">
