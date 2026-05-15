@@ -125,6 +125,7 @@ export async function getStaticProps({ params }) {
   const mdPath = path.join(process.cwd(), 'articles', `${slug}.md`)
   let htmlContent = null
   let meta = articleMeta[slug] || null
+  let articleImage = null
 
   if (fs.existsSync(mdPath)) {
     const raw = fs.readFileSync(mdPath, 'utf-8')
@@ -141,6 +142,10 @@ export async function getStaticProps({ params }) {
         tags: Array.isArray(data.tags) ? data.tags : [],
       }
     }
+    // Извлекаем image из frontmatter
+    if (data.image) {
+      articleImage = data.image
+    }
   }
 
   if (!meta) {
@@ -155,11 +160,12 @@ export async function getStaticProps({ params }) {
       date: (meta.date instanceof Date ? meta.date.toISOString().slice(0,10) : String(meta.date)),
       tags: meta.tags,
       htmlContent,
+      articleImage,
     }
   }
 }
 
-export default function ArticlePage({ slug, title, description, date, tags, htmlContent }) {
+export default function ArticlePage({ slug, title, description, date, tags, htmlContent, articleImage }) {
   return (
     <>
       <Head>
@@ -203,6 +209,17 @@ export default function ArticlePage({ slug, title, description, date, tags, html
             </div>
           </div>
         </div>
+
+        {articleImage && (
+          <div className="article-image mb-8">
+            <img
+              src={articleImage}
+              alt={title}
+              className="w-full rounded-lg shadow-md"
+              style={{ aspectRatio: '16/9', objectFit: 'cover' }}
+            />
+          </div>
+        )}
 
         {htmlContent ? (
           <div dangerouslySetInnerHTML={{ __html: htmlContent }} />

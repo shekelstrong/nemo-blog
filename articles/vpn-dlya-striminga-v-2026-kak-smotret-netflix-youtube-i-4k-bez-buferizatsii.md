@@ -7,7 +7,7 @@ description: "Полный гайд по VPN для стриминга в 2026: 
 keywords: [VPN для стриминга, Netflix через VPN, ISP throttling обход, 4K стриминг, WireGuard для видео, NordLynx скорость, Lightway протокол, буферизация видео, VPN для YouTube, VPN Netflix Россия]
 author: "NEMO VPN"
 category: "vpn"
-image: "/logo.jpg"
+image: "/articles/images/vpn-dlya-striminga-v-2026-kak-smotret-netflix-youtube-i-4k-bez-buferizatsii.jpg"
 ---
 
 ## VPN для стриминга в 2026: почему без VPN ваше видео превращается в слайд-шоу

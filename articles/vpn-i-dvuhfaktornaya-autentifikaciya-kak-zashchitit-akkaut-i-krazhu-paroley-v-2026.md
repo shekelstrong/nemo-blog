@@ -26,7 +26,7 @@ keywords:
   - VLESS Reality
 author: "NEMO VPN"
 category: "guides"
-image: "/logo.jpg"
+image: "/articles/images/vpn-i-dvuhfaktornaya-autentifikaciya-kak-zashchitit-akkaut-i-krazhu-paroley-v-2026.jpg"
 ---
 
 <script type="application/ld+json">

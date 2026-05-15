@@ -6,7 +6,7 @@ description: "Полное руководство по настройке VPN н
 keywords: [VPN Mac 2026, VPN macOS, настройка VPN Mac, VLESS Reality Mac, WireGuard macOS, OpenVPN Mac, обход блокировок Mac, NEMO VPN]
 author: "NEMO VPN"
 category: "guides"
-image: "/logo.jpg"
+image: "/articles/images/vpn-na-mac-polnoe-rukovodstvo-po-nastroyke-v-2026.jpg"
 ---
 
 <script type="application/ld+json">

@@ -6,7 +6,7 @@ description: "Разбор бесплатных VPN в 2026 году: какие
 keywords: [бесплатный VPN, VPN бесплатно, VPN без оплаты, безопасный VPN, VPN риски, мошенники VPN, NEMO VPN, VLESS Reality]
 author: "NEMO VPN"
 category: "vpn"
-image: "/logo.jpg"
+image: "/articles/images/besplatnyy-vpn-pravda-mify-riski-i-alternativy-v-2026.jpg"
 ---
 
 <script type="application/ld+json">

@@ -3,6 +3,7 @@ title: 'Яндекс, VK, Ozon блокируют VPN: что происходи
 date: '2026-04-27'
 tags: [VPN, блокировки, Яндекс, VK, Ozon, Wildberries, банки, белые списки, 2026]
 description: '2026-04-15 года российские платформы начали блокировать VPN-пользователей. Яндекс, VK, Ozon, Wildberries и банки ограничивают функциональность при включённом VPN. Разбираем, как определяется VPN, что такое белые списки, почему iPhone сложнее детектировать и как обойти блокировки с помощью split tunneling и NEMO VPN.'
+image: "/articles/images/yandeks-vk-ozon-blokiruyut-vpn-chto-proiskhodit-i-kak-oboyti-v-2026.jpg"
 ---
 
 import { Article } from '../components/Article'

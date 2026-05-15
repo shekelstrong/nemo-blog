@@ -3,6 +3,7 @@ title: 'VPN на Windows 11: полное руководство по настр
 date: '2026-04-27'
 tags: ['инструкции', 'VPN', 'Windows 11', 'настройка', 'WireGuard', 'OpenVPN', 'VLESS', 'руководство']
 description: 'Полное руководство по настройке VPN на Windows 11 в 2026 году. Встроенный VPN, настройка через проводник, протоколы PPTP/L2TP/SSTP/IKEv2, WireGuard, OpenVPN, VLESS/Xray, автозапуск, проверка утечек и troubleshooting.'
+image: "/articles/images/vpn-na-windows-11-polnoe-rukovodstvo-po-nastroyke-v-2026.jpg"
 ---
 <script type="application/ld+json">
 {
