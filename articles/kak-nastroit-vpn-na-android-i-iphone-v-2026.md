@@ -4,6 +4,7 @@ date: '2026-04-26'
 tags: [инструкции, VPN, Android, iPhone, iOS, настройка, VLESS Reality, руководство]
 description: 'Пошаговая инструкция по настройке VPN на Android и iPhone в 2026 году. Через приложения, вручную, VLESS Reality через v2rayNG/HAPP. Проверка работоспособности, частые проблемы и решения.'
 image: "/articles/images/kak-nastroit-vpn-na-android-i-iphone-v-2026.jpg"
+
 ---
 
 ## VPN на смартфоне в 2026: почему простое приложение больше не работает

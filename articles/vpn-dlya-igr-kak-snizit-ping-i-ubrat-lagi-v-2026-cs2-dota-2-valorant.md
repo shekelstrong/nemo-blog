@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: ['VPN', 'игры', 'пинг', 'лаги', 'CS2', 'Dota 2', 'Valorant', 'WireGuard', 'гейминг', '2026']
 description: 'VPN для игр в 2026: как снизить пинг и убрать лаги в CS2, Dota 2 и Valorant. Почему VPN может УМЕНЬШАТЬ пинг, а не увеличивать его. ISP throttle, плохая маршрутизация, WireGuard vs OpenVPN, лучшие VPN для гейминга, split tunneling, тестирование серверов. Riot Games и Valve не банят за VPN.'
 image: "/articles/images/vpn-dlya-igr-kak-snizit-ping-i-ubrat-lagi-v-2026-cs2-dota-2-valorant.jpg"
+
 ---
 
 import { Article } from '../components/Article'

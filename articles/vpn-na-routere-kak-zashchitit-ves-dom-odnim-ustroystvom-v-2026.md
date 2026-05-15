@@ -4,6 +4,7 @@ date: '2026-04-26'
 tags: [VPN, роутер, OpenWRT, VLESS Reality, маршрутизация, защита сети, DIY, 2026]
 description: 'Полный гайд по настройке VPN на роутере с прошивкой OpenWRT. Защитите все устройства дома одним кликом: Smart TV, IoT, консоли, телефоны. Прошивка, Passwall2, VLESS Reality + XHTTP, Hysteria2, 4G LTE роутеры. Обход 15 ГБ лимита — трафик не считается мобильным.'
 image: "/articles/images/vpn-na-routere-kak-zashchitit-ves-dom-odnim-ustroystvom-v-2026.jpg"
+
 ---
 
 ## VPN на роутере: как защитить весь дом одним устройством в 2026

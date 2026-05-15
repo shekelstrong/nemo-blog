@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: ['инструкции', 'VLESS Reality', 'Xray', 'VPN', 'обход DPI', 'настройка', 'Server Name', 'SNI', 'Dest', 'Fingerprint', '2026']
 description: 'VLESS Reality — современный протокол обхода DPI для Xray. Полное руководство по настройке в 2026: Server Name, Dest, SNI, Fingerprint (Chrome), Private Key, Short ID. JSON конфиг Xray, панель 3x-UI, как работает подмена сертификатов, чем отличается от WireGuard и AmneziaWG, NEMO VPN CTA.'
 image: "/articles/images/vless-reality-polnoe-rukovodstvo-po-nastroyke-v-2026-server-name-sni-dest-fingerprint.jpg"
+
 ---
 
 # VLESS Reality: полное руководство по настройке в 2026 (Server Name, SNI, Dest, Fingerprint)

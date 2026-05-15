@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: ['инструкции', 'Shadowsocks', 'SOCKS5', 'прокси', 'VPN', 'обход блокировок', 'настройка', 'Outline', '2026']
 description: 'Полный гайд по Shadowsocks и SOCKS5 в 2026 году. Что такое Shadowsocks, как работает SOCKS5 прокси, отличие от VPN, настройка на VPS, Outline Client, клиенты для Android/Windows, плюсы и минусы, сравнение с VLESS Reality и WireGuard.'
 image: "/articles/images/shadowsocks-i-socks5-chto-eto-i-kak-nastroit-v-2026.jpg"
+
 ---
 
 # Shadowsocks и SOCKS5: что это и как настроить в 2026

@@ -1,9 +1,10 @@
 ---
 title: 'Residential IP vs Datacenter IP для VPN: почему тип адреса имеет значение в 2026'
 description: 'Datacenter IP легко определяется VPN-детекторами и блокируется платформами. Residential IP от обычных ISP выглядит как обычный пользователь и обходит проверки. Сравнение типов IP-адресов, как платформы определяют VPN, и почему NEMO VPN использует residential IP + VLESS Reality для максимальной скрытности.'
-image: "/articles/images/residential-vs-datacenter-ip-vpn-pochemu-tip-adresa-imeet-znachenie-v-2026.jpg"
 date: '2026-04-26'
 tags: ['VPN', 'безопасность', 'Residential IP', 'Datacenter IP', 'VLESS Reality', 'блокировки', 'ASN', 'Ozon', 'Wildberries', 'Яндекс']
+image: "/articles/images/residential-vs-datacenter-ip-vpn-pochemu-tip-adresa-imeet-znachenie-v-2026.jpg"
+
 ---
 
 ## Residential IP vs Datacenter IP: разница, которая определяет, работает ваш VPN или нет

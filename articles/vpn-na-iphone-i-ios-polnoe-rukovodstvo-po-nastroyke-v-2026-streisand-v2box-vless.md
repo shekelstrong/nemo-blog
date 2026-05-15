@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: [инструкции, VPN, iPhone, iOS, Streisand, v2Box, VLESS Reality, Apple Network Extension, настройка, обход блокировок, 2026]
 description: 'Полное руководство по настройке VPN на iPhone и iOS в 2026 году. Apple удалила Streisand, V2Box, v2RayTun, Happ из российского App Store. Что делать если приложение удалено, лучшие VPN-приложения (NordVPN, ExpressVPN, ProtonVPN), Streisand и v2Box настройка VLESS Reality, Apple Network Extension, оптимизация батареи, Kill Switch и NEMO VPN CTA.'
 image: "/articles/images/vpn-na-iphone-i-ios-polnoe-rukovodstvo-po-nastroyke-v-2026-streisand-v2box-vless.jpg"
+
 ---
 
 import { HowTo, HowToStep } from '@components/HowTo'

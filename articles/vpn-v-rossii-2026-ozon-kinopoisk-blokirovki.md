@@ -7,6 +7,7 @@ tags: ["vpn", "РКН", "Roskomnadzor", "блокировки сайтов", "ц
 keywords: [VPN в России, блокировка VPN, ТСПУ, Роскомнадзор, VLESS Reality, Hysteria2, обход блокировок, суверенный интернет, DPI, Ozon блокировка]
 author: "NEMO VPN"
 image: "/articles/images/vpn-v-rossii-2026-ozon-kinopoisk-blokirovki.jpg"
+
 ---
 
 ## Введение: апрель 2026 — точка невозврата для VPN в России

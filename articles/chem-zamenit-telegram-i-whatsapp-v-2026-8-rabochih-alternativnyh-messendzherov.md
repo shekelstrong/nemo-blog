@@ -4,6 +4,7 @@ date: '2026-04-26'
 tags: [мессенджеры, альтернативы, блокировки, MAX, Signal, BiP, KakaoTalk, безопасность, E2E шифрование, VPN]
 description: 'Telegram и WhatsApp заблокированы в России с апреля 2026. MAX — не альтернатива (слежка, данные, ограничения). 8 реальных рабочих мессенджеров: Signal, BiP, KakaoTalk, Google Meet, Яндекс Мессенджер, Matrix/Element, XMPP, Threema. Сравнительная таблица и как общаться безопасно через VPN.'
 image: "/articles/images/chem-zamenit-telegram-i-whatsapp-v-2026-8-rabochih-alternativnyh-messendzherov.jpg"
+
 ---
 
 ## Блокировка мессенджеров в России: что происходит и почему это касается каждого

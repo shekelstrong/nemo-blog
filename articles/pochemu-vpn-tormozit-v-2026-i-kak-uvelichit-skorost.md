@@ -4,6 +4,7 @@ date: '2026-04-26'
 tags: [гайд, VPN, скорость, оптимизация, WireGuard, DPI, блокировки]
 description: 'VPN стал медленным в 2026? РКН использует DPI-замедление: пинг есть, но данные не загружаются. Разбираем 5 причин тормозов и 6 способов увеличить скорость VPN. Таблица сравнения протоколов, настройка MTU, split tunneling и CDN-masking.'
 image: "/articles/images/pochemu-vpn-tormozit-v-2026-i-kak-uvelichit-skorost.jpg"
+
 ---
 
 ## Почему VPN стал медленным в 2026 году

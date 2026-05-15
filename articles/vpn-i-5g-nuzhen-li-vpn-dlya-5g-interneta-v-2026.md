@@ -1,11 +1,12 @@
 ---
 title: "VPN и 5G: нужен ли VPN для 5G-интернета в 2026"
 
-image: "/articles/images/vpn-i-5g-nuzhen-li-vpn-dlya-5g-interneta-v-2026.jpg"
 keywords: "VPN 5G 2026, нужен ли VPN для 5G, 5G vs 4G, WireGuard, IKEv2, gaming на 5G, стриминг 4K, mobile VPN, VPN для мобильного интернета"
 author: "NEMO VPN"
 date: "2026-04-28"
 category: "guides"
+image: "/articles/images/vpn-i-5g-nuzhen-li-vpn-dlya-5g-interneta-v-2026.jpg"
+
 ---
 
 <script type="application/ld+json">

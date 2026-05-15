@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: [инструкции, VPN, Linux, Ubuntu, Debian, Fedora, Arch, настройка, WireGuard, OpenVPN, VLESS]
 description: 'Полное руководство по настройке VPN на Linux в 2026 году. WireGuard, OpenVPN, VLESS/Xray, Sing-box, SoftEther — все методы для Ubuntu, Debian, Fedora и Arch Linux. Автозапуск, проверка утечек, сравнение протоколов.'
 image: "/articles/images/vpn-na-linux-polnoe-rukovodstvo-po-nastroyke-v-2026-ubuntu-debian-fedora-arch.jpg"
+
 ---
 
 import { HowTo, HowToStep } from '@components/HowTo'

@@ -1,9 +1,10 @@
 ---
 title: "VPN и дети: как защитить ребёнка в интернете — родительский контроль, фильтрация и безопасность в 2026"
 description: "Полный гайд по цифровой безопасности детей в 2026 году. Почему родительский контроль необходим, как дети обходят блокировки через VPN, опасности бесплатных VPN для детей, лучшие инструменты родительского контроля (Qustodio, Norton Family, Kaspersky Safe Kids, Google Family Link), DNS-фильтрация, split tunneling для семьи и чек-лист для родителей из 10 шагов."
-image: "/articles/images/vpn-i-deti-kak-zashchit-rebyonka-v-internete-roditelskiy-kontrol-filtratsiya-i-bezopasnost-v-2026.jpg"
 date: '2026-04-27'
 tags: ["VPN", "родительский контроль", "безопасность детей", "цифровая гигиена", "фильтрация контента", "Qustodio", "Norton Family", "Kaspersky Safe Kids", "Google Family Link", "NEMO VPN"]
+image: "/articles/images/vpn-i-deti-kak-zashchit-rebyonka-v-internete-roditelskiy-kontrol-filtratsiya-i-bezopasnost-v-2026.jpg"
+
 ---
 
 <script type="application/ld+json">

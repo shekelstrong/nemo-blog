@@ -3,11 +3,11 @@ title: 'VPN и общественный Wi-Fi: почему бесплатный
 date: '2026-05-14'
 tags: ['VPN', 'Wi-Fi', 'безопасность', 'общественный Wi-Fi', 'кибератаки', 'кража данных', 'ман-in-the-middle', 'Роскомнадзор', 'шифрование']
 
-image: "/articles/images/vpn-i-obshchestvennyy-wi-fi-pochemu-besplatnyy-internet-opasen-i-kak-zashchitit-svoi-dannye-v-2026.jpg"
 keywords: ['VPN для Wi-Fi', 'безопасность общественного Wi-Fi', 'защита данных в кафе', 'VPN от перехвата трафика', 'man-in-the-middle атака', 'общественный Wi-Fi опасность', 'как защититься в аэропорту', 'VPN для публичных сетей', 'перехват трафика', 'кибербезопасность 2026']
 author: 'NEMO VPN'
 category: 'vpn'
-image: '/logo.jpg'
+image: "/articles/images/vpn-i-obshchestvennyy-wi-fi-pochemu-besplatnyy-internet-opasen-i-kak-zashchitit-svoi-dannye-v-2026.jpg"
+
 ---
 
 <script type="application/ld+json">

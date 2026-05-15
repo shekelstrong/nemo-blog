@@ -4,6 +4,7 @@ date: '2026-04-26'
 tags: [безопасность, TLS, JA3, JA4, фингерпринтинг, DPI, VLESS Reality]
 description: 'TLS-фингерпринтинг — метод идентификации пользователей по характеристикам зашифрованного соединения. JA3, JA4, JA4+, 4 уровня обнаружения, почему обычный VPN «светится» и как VLESS Reality с XHTTP обходят детекцию.'
 image: "/articles/images/tls-fingerprinting-kak-vas-vychislyayut-dazhe-cherez-vpn.jpg"
+
 ---
 
 ## Вас вычисляют по отпечаткам, даже если трафик зашифрован

@@ -1,9 +1,10 @@
 ---
 title: "Split Tunneling VPN: как разделить трафик — российские сайты напрямую, заблокированные через VPN в 2026"
 description: "Полный гайд по Split Tunneling VPN в России 2026: как направить российские сайты напрямую, а заблокированные через VPN. Настройка на Android, iOS, Windows, Linux, роутерах. V2rayNG, Streisand, NekoBox, AmneziaWG, Xray-core. Include mode vs Exclude mode. Практические примеры и безопасность."
-image: "/articles/images/split-tunneling-vpn-kak-razdelit-trafik-rossiyskie-sayty-pryamo-blokirovannye-cherez-vpn-v-2026.jpg"
 date: '2026-04-27'
 tags: ["Split Tunneling", "VPN", "маршрутизация", "Android", "iOS", "Windows", "Linux", "V2rayNG", "Streisand", "AmneziaWG", "Xray-core", "белые списки", "обход блокировок", "безопасность", "2026"]
+image: "/articles/images/split-tunneling-vpn-kak-razdelit-trafik-rossiyskie-sayty-pryamo-blokirovannye-cherez-vpn-v-2026.jpg"
+
 ---
 
 <script type="application/ld+json">

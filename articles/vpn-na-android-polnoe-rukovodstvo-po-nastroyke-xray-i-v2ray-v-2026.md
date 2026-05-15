@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: [инструкции, VPN, Android, Xray, v2Ray, VLESS Reality, настройка, обход блокировок, v2rayNG, 2026]
 description: 'Полное руководство по настройке VPN на Android с Xray и v2Ray в 2026 году. v2rayNG, v2RayTun, Sing-box, Hysteria2 — лучшие приложения. Импорт конфигурации, VLESS Reality, оптимизация батареи, Kill Switch, автозапуск, разрешения Android 12+ и troubleshooting.'
 image: "/articles/images/vpn-na-android-polnoe-rukovodstvo-po-nastroyke-xray-i-v2ray-v-2026.jpg"
+
 ---
 
 import { HowTo, HowToStep } from '@components/HowTo'

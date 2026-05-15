@@ -3,11 +3,11 @@ title: 'DNS-утечки: как провайдер видит ваши сайт
 date: '2026-04-27'
 tags: [VPN, DNS-утечки, DoH, DoT, безопасность, приватность, провайдер, РКН, NEMO VPN, Cloudflare, Google DNS]
 
-image: "/articles/images/dns-utechki-kak-provayder-vidit-vashe-sayty-dazhe-s-vpn-i-kak-eto-ispravit-v-2026.jpg"
 keywords: [DNS утечки, DNS leak, DoH, DoT, DNS over HTTPS, DNS over TLS, провайдер слежка, РКН, VPN приватность, Cloudflare DNS, VLESS Reality, kill switch, WebRTC утечки, IPv6 утечки, DPI, ТСПУ]
 author: 'NEMO VPN'
 category: 'vpn'
-image: '/logo.jpg'
+image: "/articles/images/dns-utechki-kak-provayder-vidit-vashe-sayty-dazhe-s-vpn-i-kak-eto-ispravit-v-2026.jpg"
+
 ---
 
 import { Article } from '../components/Article'

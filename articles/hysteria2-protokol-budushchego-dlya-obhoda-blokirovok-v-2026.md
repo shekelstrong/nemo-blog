@@ -4,6 +4,7 @@ date: '2026-04-27'
 tags: ['VPN', 'Hysteria2', 'QUIC', 'обход DPI', 'протоколы', '2026', 'блокировки', 'VLESS Reality', 'WireGuard']
 description: 'Hysteria2 — современный прокси-протокол на базе QUIC для обхода блокировок в 2026. Как работает Hysteria2, почему он устойчив к DPI, Brutal vs Salamander обфускация, сравнение с VLESS Reality и WireGuard. Когда Hysteria2 падает и почему NEMO VPN использует его в связке с VLESS Reality.'
 image: "/articles/images/hysteria2-protokol-budushchego-dlya-obhoda-blokirovok-v-2026.jpg"
+
 ---
 <script type="application/ld+json">
 {

@@ -1,11 +1,12 @@
 ---
 title: "Свой VPN-сервер: Marzban, 3X-UI и Xray — как поднять VLESS Reality за 30 минут в 2026"
 
-image: "/articles/images/svoy-vpn-server-marzban-3x-ui-xray-kak-podnyat-vless-reality-za-30-minut-v-2026.jpg"
 keywords: "свой VPN-сервер, Marzban, 3X-UI, Xray, VLESS Reality, VPS, Docker, VPN панель управления, настройка VPN сервера, self-hosted VPN"
 author: "NEMO VPN"
 date: "2026-04-28"
 category: "guides"
+image: "/articles/images/svoy-vpn-server-marzban-3x-ui-xray-kak-podnyat-vless-reality-za-30-minut-v-2026.jpg"
+
 ---
 
 <script type="application/ld+json">
