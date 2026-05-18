@@ -3,7 +3,7 @@ title: "ТСПУ, белые списки и аномальная маршрут
 description: "Разбираем, почему VPN перестал работать в России в 2026: ТСПУ, белые списки, аномальная маршрутизация, DPI V2 и способы обхода. Практические советы от NEMO VPN."
 keywords: ["ТСПУ 2026","белые списки интернет","VPN перестал работать","аномальная маршрутизация","DPI V2","обход блокировок 2026","Роскомнадзор VPN","NEMO VPN"]
 author: "NEMO VPN"
-date: "18 мая 2026"
+date: "2026-05-18"
 category: "VPN"
 image: "/articles/images/tspu-belye-spiski-i-anomalnaya-marshrutizaciya-2026.jpg"
 tags: ["ТСПУ","VPN","белые списки","DPI","Роскомнадзор","2026","обход блокировок","WireGuard","VLESS Reality","NEMO VPN"]
